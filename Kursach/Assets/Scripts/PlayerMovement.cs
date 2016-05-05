@@ -10,12 +10,14 @@ public class PlayerMovement : MonoBehaviour {
 
 	}
 
-	// Update is called once per frame
-	void Update () {
-		movement ();
-	}
+    //Update is called once per frame
 
-	void movement(){
+    void Update()
+    {
+        movement();
+    }
+
+    void movement(){
 		if (Input.GetKey (KeyCode.W)) {
 			transform.Translate (Vector3.up * speed * Time.deltaTime, Space.World);
 			moving = true;

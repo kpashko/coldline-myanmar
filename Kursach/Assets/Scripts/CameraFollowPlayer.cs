@@ -11,14 +11,15 @@ public class CameraFollowPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (followPlayer == true) {
+		//if (followPlayer == true) {
 			canFollowPlayer ();
-		}
+		//}
 	}
 
 	public void setFollowPlayer (bool val){
 		followPlayer = val;
 	}
+
 	void canFollowPlayer(){
 		Vector3 newPos = new Vector3 (player.transform.position.x, player.transform.position.y, this.transform.position.z);
 		this.transform.position = newPos;
