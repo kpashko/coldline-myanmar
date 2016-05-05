@@ -14,8 +14,18 @@ public class PlayerMovement : MonoBehaviour {
 
     void Update()
     {
-        movement();
+		if (moving == true) {
+			movement ();
+		}
+
+		movementCheck ();
     }
+
+	public void setMoving(bool val)
+	{
+		moving = val;
+	}
+
 
     void movement(){
 		if (Input.GetKey (KeyCode.W)) {
@@ -32,6 +42,15 @@ public class PlayerMovement : MonoBehaviour {
 		}
 		if (Input.GetKey (KeyCode.D)) {
 			transform.Translate (Vector3.right * speed * Time.deltaTime, Space.World);
+			moving = true;
+		}
+	}
+
+	void movementCheck()
+	{
+		if (Input.GetKey(KeyCode.D) != true && Input.GetKey (KeyCode.A) != true && Input.GetKey (KeyCode.S) != true && Input.GetKey (KeyCode.W) != true) {
+			moving = false;
+		} else {
 			moving = true;
 		}
 	}
