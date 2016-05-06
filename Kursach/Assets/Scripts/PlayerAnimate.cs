@@ -8,6 +8,8 @@ public class PlayerAnimate : MonoBehaviour {
     float timer = 0.05f, legTimer = 0.05f;
     public SpriteRenderer torso, legs;
     SpriteContainer sc;
+
+	bool attackingB = false;
     // Use this for initialization
     void Start () {
         pm = this.GetComponent<PlayerMovement> ();
@@ -19,14 +21,18 @@ public class PlayerAnimate : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         animateLegs();
-        animateTorso();
+		if (attackingB == false) {
+			animateTorso ();
+		} else {
+			animateAttack ();
+		}
 	}
 
     void animateTorso()
     {
         if (pm.moving == true)
         {
-            torso.sprite = walking[counter];
+            torso.sprite = walking[counter+1];
             timer -= Time.deltaTime;
             if (timer <= 0)
             {
@@ -42,6 +48,25 @@ public class PlayerAnimate : MonoBehaviour {
             }
         }
     }
+
+	void animateAttack()
+	{
+		torso.sprite = attacking [counter];
+
+		timer -= Time.deltaTime;
+		if (timer <= 0) {
+			if (counter < attacking.Length - 1) {
+				counter++;
+			} else {
+				if (attackingB == true) {
+					attackingB = false;
+				}
+				counter = 0;
+			}
+			timer = 0.05f;
+		}
+	}
+
 
     void animateLegs()
     {
@@ -64,4 +89,27 @@ public class PlayerAnimate : MonoBehaviour {
             }
         }
     }
+
+	public void attack()
+	{
+		attackingB = true;
+	}
+
+	public void resetCounter()
+	{
+		counter = 0;
+	}
+
+	public bool getAttack()
+	{
+		return attackingB;
+	}
+
+	public void setNewTorso(Sprite[] walk,Sprite[] attack)
+	{
+		counter = 0;
+		attacking = attack;
+		walking = walk;
+	}
+
 }
