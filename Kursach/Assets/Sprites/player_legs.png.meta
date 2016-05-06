@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: d1be351ed77c241f1b89036079a9501a
+timeCreated: 1462555766
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: player_legs_0
+    21300002: player_legs_1
+    21300004: player_legs_2
+    21300006: player_legs_3
+    21300008: player_legs_4
+    21300010: player_legs_5
+    21300012: player_legs_6
+    21300014: player_legs_7
+    21300016: player_legs_8
+    21300018: player_legs_9
+    21300020: player_legs_10
+    21300022: player_legs_11
+    21300024: player_legs_12
+    21300026: player_legs_13
+    21300028: player_legs_14
+    21300030: player_legs_15
+    21300032: player_legs_16
+    21300034: player_legs_17
+    21300036: player_legs_18
+    21300038: player_legs_19
+    21300040: player_legs_20
+    21300042: player_legs_21
+    21300044: player_legs_22
+    21300046: player_legs_23
+    21300048: player_legs_24
+    21300050: player_legs_25
+    21300052: player_legs_26
+    21300054: player_legs_27
+    21300056: player_legs_28
+    21300058: player_legs_29
+    21300060: player_legs_30
+    21300062: player_legs_31
+    21300064: player_legs_32
+    21300066: player_legs_33
+    21300068: player_legs_34
+    21300070: player_legs_35
+    21300072: player_legs_36
+    21300074: player_legs_37
+    21300076: player_legs_38
+    21300078: player_legs_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: player_legs_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 199
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 197
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 199
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 198
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 198
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_5
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 203
+        width: 51
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_6
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 203
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_7
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 208
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_8
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 207
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_9
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 208
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 169
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 164
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 169
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 167
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_14
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 166
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_15
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 172
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 176
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_17
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 185
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_18
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 185
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_19
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 183
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_20
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 122
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_21
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 121
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_22
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 122
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_23
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 117
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_24
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 117
+        width: 51
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_25
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 112
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_26
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 112
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_27
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 113
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_28
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 111
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_29
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 113
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 97
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_31
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 99
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_32
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 99
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_33
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 90
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_34
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 86
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_35
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 80
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_36
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 81
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_37
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 83
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_38
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 78
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_legs_39
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 83
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
