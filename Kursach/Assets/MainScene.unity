@@ -133,7 +133,38 @@ MonoBehaviour:
   - {fileID: 21300034, guid: befb4acda40f646bc9f6ee171e356b3d, type: 3}
   - {fileID: 21300036, guid: befb4acda40f646bc9f6ee171e356b3d, type: 3}
   - {fileID: 21300038, guid: befb4acda40f646bc9f6ee171e356b3d, type: 3}
-  pUnarmedWalk: []
+  pUnarmedWalk:
+  - {fileID: 21300524, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300552, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300552, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300592, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300592, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300624, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300676, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300694, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300484, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300484, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300718, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300718, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  pPunch:
+  - {fileID: 21300728, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300730, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300736, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300738, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  pMac10Walk:
+  - {fileID: 21300436, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300476, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300516, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300548, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300580, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300618, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300658, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300670, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  pMac10Attack:
+  - {fileID: 21300654, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  - {fileID: 21300666, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
+  pBowieWalk: []
+  pBowieAttack: []
 --- !u!4 &179916419
 Transform:
   m_ObjectHideFlags: 0
@@ -205,7 +236,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d89314614b31a47aca6d9597465a45f3, type: 3}
+  m_Sprite: {fileID: 21300676, guid: 14c1ebc606c7548a181abd38f91a9012, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -260,7 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf85250386d486d44b0d012223a05c1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  torso: {fileID: 0}
+  torso: {fileID: 624449944}
   legs: {fileID: 2050435636}
 --- !u!1 &1512912270
 GameObject:

@@ -32,7 +32,7 @@ public class PlayerAnimate : MonoBehaviour {
     {
         if (pm.moving == true)
         {
-            torso.sprite = walking[counter+1];
+            torso.sprite = walking[counter];
             timer -= Time.deltaTime;
             if (timer <= 0)
             {
