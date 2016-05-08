@@ -106,11 +106,28 @@ public class PlayerAnimate : MonoBehaviour {
 		return attackingB;
 	}
 
+    void attackCheck()
+    {
+        if(attackingB == false)
+        {
+            torso.sprite = walking[0];
+        }
+    }
+
+    public void resetSprites()
+    {
+        counter = 0;
+        attacking = sc.getPlayerPunch();
+        walking = sc.getPlayerUnarmedWalk();
+        torso.sprite = walking[0];
+    }
+
 	public void setNewTorso(Sprite[] walk,Sprite[] attack)
 	{
 		counter = 0;
 		attacking = attack;
 		walking = walk;
+        torso.sprite = walking[0];
 	}
 
 }

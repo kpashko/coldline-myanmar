@@ -6,7 +6,7 @@ public class WeaponPickup : MonoBehaviour
 	public string name;
 	public float fireRate;
 	WeaponAttack wa;
-	public bool gun;
+	public bool gun, oneHanded;
 	// Use this for initialization
 	void Start()
 	{
@@ -29,7 +29,7 @@ public class WeaponPickup : MonoBehaviour
 			{
 				wa.dropWeapon ();
 			}
-			wa.setWeapon(this.gameObject, name, fireRate, gun);
+			wa.setWeapon(this.gameObject, name, fireRate, gun, oneHanded);
 			this.gameObject.SetActive(false);
 		}
 	}
