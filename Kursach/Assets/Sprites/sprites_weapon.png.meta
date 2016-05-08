@@ -1,0 +1,2163 @@
+fileFormatVersion: 2
+guid: ac149e4ec62cd49ce95480a5a6a09a00
+timeCreated: 1462714288
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprites_weapon_0
+    21300002: sprites_weapon_1
+    21300004: sprites_weapon_2
+    21300006: sprites_weapon_3
+    21300008: sprites_weapon_4
+    21300010: sprites_weapon_5
+    21300012: sprites_weapon_6
+    21300014: sprites_weapon_7
+    21300016: sprites_weapon_8
+    21300018: sprites_weapon_9
+    21300020: sprites_weapon_10
+    21300022: sprites_weapon_11
+    21300024: sprites_weapon_12
+    21300026: sprites_weapon_13
+    21300028: sprites_weapon_14
+    21300030: sprites_weapon_15
+    21300032: sprites_weapon_16
+    21300034: sprites_weapon_17
+    21300036: sprites_weapon_18
+    21300038: sprites_weapon_19
+    21300040: sprites_weapon_20
+    21300042: sprites_weapon_21
+    21300044: sprites_weapon_22
+    21300046: sprites_weapon_23
+    21300048: sprites_weapon_24
+    21300050: sprites_weapon_25
+    21300052: sprites_weapon_26
+    21300054: sprites_weapon_27
+    21300056: sprites_weapon_28
+    21300058: sprites_weapon_29
+    21300060: sprites_weapon_30
+    21300062: sprites_weapon_31
+    21300064: sprites_weapon_32
+    21300066: sprites_weapon_33
+    21300068: sprites_weapon_34
+    21300070: sprites_weapon_35
+    21300072: sprites_weapon_36
+    21300074: sprites_weapon_37
+    21300076: sprites_weapon_38
+    21300078: sprites_weapon_39
+    21300080: sprites_weapon_40
+    21300082: sprites_weapon_41
+    21300084: sprites_weapon_42
+    21300086: sprites_weapon_43
+    21300088: sprites_weapon_44
+    21300090: sprites_weapon_45
+    21300092: sprites_weapon_46
+    21300094: sprites_weapon_47
+    21300096: sprites_weapon_48
+    21300098: sprites_weapon_49
+    21300100: sprites_weapon_50
+    21300102: sprites_weapon_51
+    21300104: sprites_weapon_52
+    21300106: sprites_weapon_53
+    21300108: sprites_weapon_54
+    21300110: sprites_weapon_55
+    21300112: sprites_weapon_56
+    21300114: sprites_weapon_57
+    21300116: sprites_weapon_58
+    21300118: sprites_weapon_59
+    21300120: sprites_weapon_60
+    21300122: sprites_weapon_61
+    21300124: sprites_weapon_62
+    21300126: sprites_weapon_63
+    21300128: sprites_weapon_64
+    21300130: sprites_weapon_65
+    21300132: sprites_weapon_66
+    21300134: sprites_weapon_67
+    21300136: sprites_weapon_68
+    21300138: sprites_weapon_69
+    21300140: sprites_weapon_70
+    21300142: sprites_weapon_71
+    21300144: sprites_weapon_72
+    21300146: sprites_weapon_73
+    21300148: sprites_weapon_74
+    21300150: sprites_weapon_75
+    21300152: sprites_weapon_76
+    21300154: sprites_weapon_77
+    21300156: sprites_weapon_78
+    21300158: sprites_weapon_79
+    21300160: sprites_weapon_80
+    21300162: sprites_weapon_81
+    21300164: sprites_weapon_82
+    21300166: sprites_weapon_83
+    21300168: sprites_weapon_84
+    21300170: sprites_weapon_85
+    21300172: sprites_weapon_86
+    21300174: sprites_weapon_87
+    21300176: sprites_weapon_88
+    21300178: sprites_weapon_89
+    21300180: sprites_weapon_90
+    21300182: sprites_weapon_91
+    21300184: sprites_weapon_92
+    21300186: sprites_weapon_93
+    21300188: sprites_weapon_94
+    21300190: sprites_weapon_95
+    21300192: sprites_weapon_96
+    21300194: sprites_weapon_97
+    21300196: sprites_weapon_98
+    21300198: sprites_weapon_99
+    21300200: sprites_weapon_100
+    21300202: sprites_weapon_101
+    21300204: sprites_weapon_102
+    21300206: sprites_weapon_103
+    21300208: sprites_weapon_104
+    21300210: sprites_weapon_105
+    21300212: sprites_weapon_106
+    21300214: sprites_weapon_107
+    21300216: sprites_weapon_108
+    21300218: sprites_weapon_109
+    21300220: sprites_weapon_110
+    21300222: sprites_weapon_111
+    21300224: sprites_weapon_112
+    21300226: sprites_weapon_113
+    21300228: sprites_weapon_114
+    21300230: sprites_weapon_115
+    21300232: sprites_weapon_116
+    21300234: sprites_weapon_117
+    21300236: sprites_weapon_118
+    21300238: sprites_weapon_119
+    21300240: sprites_weapon_120
+    21300242: sprites_weapon_121
+    21300244: sprites_weapon_122
+    21300246: sprites_weapon_123
+    21300248: sprites_weapon_124
+    21300250: sprites_weapon_125
+    21300252: sprites_weapon_126
+    21300254: sprites_weapon_127
+    21300256: sprites_weapon_128
+    21300258: sprites_weapon_129
+    21300260: sprites_weapon_130
+    21300262: sprites_weapon_131
+    21300264: sprites_weapon_132
+    21300266: sprites_weapon_133
+    21300268: sprites_weapon_134
+    21300270: sprites_weapon_135
+    21300272: sprites_weapon_136
+    21300274: sprites_weapon_137
+    21300276: sprites_weapon_138
+    21300278: sprites_weapon_139
+    21300280: sprites_weapon_140
+    21300282: sprites_weapon_141
+    21300284: sprites_weapon_142
+    21300286: sprites_weapon_143
+    21300288: sprites_weapon_144
+    21300290: sprites_weapon_145
+    21300292: sprites_weapon_146
+    21300294: sprites_weapon_147
+    21300296: sprites_weapon_148
+    21300298: sprites_weapon_149
+    21300300: sprites_weapon_150
+    21300302: sprites_weapon_151
+    21300304: sprites_weapon_152
+    21300306: sprites_weapon_153
+    21300308: sprites_weapon_154
+    21300310: sprites_weapon_155
+    21300312: sprites_weapon_156
+    21300314: sprites_weapon_157
+    21300316: sprites_weapon_158
+    21300318: sprites_weapon_159
+    21300320: sprites_weapon_160
+    21300322: sprites_weapon_161
+    21300324: sprites_weapon_162
+    21300326: sprites_weapon_163
+    21300328: sprites_weapon_164
+    21300330: sprites_weapon_165
+    21300332: sprites_weapon_166
+    21300334: sprites_weapon_167
+    21300336: sprites_weapon_168
+    21300338: sprites_weapon_169
+    21300340: sprites_weapon_170
+    21300342: sprites_weapon_171
+    21300344: sprites_weapon_172
+    21300346: sprites_weapon_173
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sprites_weapon_0
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 690
+        width: 63
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_1
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 694
+        width: 79
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_2
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 704
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_3
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 666
+        width: 77
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_4
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 672
+        width: 87
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_5
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 686
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_6
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 650
+        width: 71
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_7
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 664
+        width: 51
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_8
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 650
+        width: 87
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_9
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 668
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_10
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 634
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_11
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 644
+        width: 75
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_12
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 650
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_13
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 626
+        width: 73
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_14
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 622
+        width: 73
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 632
+        width: 79
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_16
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 632
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_17
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 608
+        width: 77
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 606
+        width: 57
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_19
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 612
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_20
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 596
+        width: 81
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_21
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 614
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_22
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 590
+        width: 91
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_23
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 588
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_24
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 576
+        width: 71
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_25
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 590
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_26
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 590
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_27
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 560
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_28
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 542
+        width: 71
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 16}
+        - {x: -35.5, y: -16}
+        - {x: 6.5, y: -16}
+        - {x: 35.5, y: -7}
+        - {x: 35.5, y: 6}
+        - {x: -6.5, y: 16}
+    - name: sprites_weapon_29
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 564
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_30
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 570
+        width: 79
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_31
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 572
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_32
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 538
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_33
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 538
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_34
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 546
+        width: 91
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_35
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 554
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_36
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 528
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_37
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 536
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_38
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 502
+        width: 73
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_39
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 506
+        width: 87
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_40
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 512
+        width: 87
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_41
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 506
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_42
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 512
+        width: 57
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_43
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 518
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_44
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 482
+        width: 87
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_45
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 488
+        width: 57
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_46
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 482
+        width: 87
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_47
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 500
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_48
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 480
+        width: 57
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_49
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 490
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_50
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 474
+        width: 63
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_51
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 456
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_52
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 468
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_53
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 448
+        width: 59
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_54
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 458
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_55
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 452
+        width: 49
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_56
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 462
+        width: 35
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_57
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 450
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_58
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 452
+        width: 85
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_59
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 428
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_60
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 442
+        width: 53
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_61
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 432
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_62
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 432
+        width: 73
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_63
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 408
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_64
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 420
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_65
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 406
+        width: 77
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_66
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 410
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_67
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 420
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_68
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 412
+        width: 67
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_69
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 418
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_70
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 404
+        width: 50
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_71
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 392
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_72
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 410
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_73
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 392
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_74
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 386
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_75
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 388
+        width: 59
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_76
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 402
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_77
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 374
+        width: 65
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_78
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 372
+        width: 58
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_79
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 374
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_80
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 370
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_81
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 358
+        width: 67
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_82
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 374
+        width: 55
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_83
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 348
+        width: 79
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_84
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 338
+        width: 110
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_85
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 356
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_86
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 352
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_87
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 348
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_88
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 344
+        width: 65
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_89
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 336
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_90
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 340
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_91
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 334
+        width: 83
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_92
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 306
+        width: 64
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_93
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 322
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_94
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 326
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_95
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 326
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_96
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 326
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_97
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 324
+        width: 53
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_98
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 302
+        width: 77
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_99
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 308
+        width: 87
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_100
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 304
+        width: 51
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_101
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 274
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_102
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 284
+        width: 64
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_103
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 286
+        width: 65
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_104
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 264
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_105
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 272
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_106
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 242
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_107
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 262
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_108
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 232
+        width: 90
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_109
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 248
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_110
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 234
+        width: 89
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_111
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 200
+        width: 69
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_112
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 200
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_113
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 166
+        width: 68
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_114
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 184
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_115
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_116
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 152
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_117
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 150
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_118
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 152
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_119
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_120
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_121
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 154
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_122
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 156
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_123
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 59
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_124
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 90
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_125
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 96
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_126
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 94
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_127
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 106
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_128
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 106
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_129
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 94
+        width: 63
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_130
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 104
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_131
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 88
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_132
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 94
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_133
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 92
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_134
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 76
+        width: 91
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_135
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 48
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 28}
+        - {x: -22.5, y: 15}
+        - {x: -19.5, y: 7}
+        - {x: 14.5, y: -28}
+        - {x: 22.5, y: -28}
+        - {x: 22.5, y: 28}
+    - name: sprites_weapon_136
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 82
+        width: 43
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_137
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 84
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_138
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 82
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_139
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 70
+        width: 63
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_140
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 74
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_141
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 62
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_142
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 54
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_143
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 68
+        width: 53
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_144
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 60
+        width: 79
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_145
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 66
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_146
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 54
+        width: 73
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_147
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 48
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_148
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 46
+        width: 57
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_149
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 58
+        width: 55
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_150
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 48
+        width: 59
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_151
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 32
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_152
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 46
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_153
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 30
+        width: 56
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_154
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 38
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_155
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 42
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_156
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 28
+        width: 79
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 63
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_158
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 22
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_159
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 6
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 18}
+        - {x: -19.5, y: 10}
+        - {x: -19.5, y: -13}
+        - {x: -1.5, y: -18}
+        - {x: 19.5, y: -18}
+        - {x: 19.5, y: 18}
+    - name: sprites_weapon_160
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 4
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_161
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 20
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_162
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 18
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_163
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 24
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_164
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 2
+        width: 65
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_165
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_166
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 10
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_167
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 12
+        width: 58
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_168
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 2
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_169
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 10
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_170
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 4
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_171
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 6
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_172
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sprites_weapon_173
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 4
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
