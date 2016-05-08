@@ -16,6 +16,7 @@ public class PlayerAnimate : MonoBehaviour {
         sc = GameObject.FindGameObjectWithTag("GameController").GetComponent<SpriteContainer> ();
         walking = sc.getPlayerUnarmedWalk ();
         legsSpr = sc.getPlayerLegs ();
+        attacking = sc.getPlayerPunch();
     }
 	
 	// Update is called once per frame

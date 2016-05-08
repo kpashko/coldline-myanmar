@@ -64,9 +64,12 @@ public class WeaponAttack : MonoBehaviour {
 
 	public void dropWeapon()
 	{
-		curWeapon.transform.position = this.transform.position;
-		curWeapon.SetActive (true);
-		setWeapon (null, "", 0.5f, false);
+        if (getCur() != null)
+        { 
+            curWeapon.transform.position = this.transform.position;
+            curWeapon.SetActive(true);
+            setWeapon(null, "", 0.5f, false);
+        }
 	}
 
 }
