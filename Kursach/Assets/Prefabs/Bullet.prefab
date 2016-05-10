@@ -75,7 +75,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: {x: 1, y: 0, z: 0}
   bloodImpact: {fileID: 105666, guid: 9d82f9fd4ddce480f8846facfd6e5062, type: 2}
-  wallImpact: {fileID: 0}
+  wallImpact: {fileID: 119172, guid: 61c8e5dd501404f149468d9809868df1, type: 2}
 --- !u!212 &21294548
 SpriteRenderer:
   m_ObjectHideFlags: 1
