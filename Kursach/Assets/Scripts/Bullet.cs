@@ -18,9 +18,11 @@ public class Bullet : MonoBehaviour {
         transform.Translate(direction * 17 * Time.deltaTime);
 
         timer -= Time.deltaTime;
+
         if(timer <= 0)
         {
             Destroy(this.gameObject);
+			DestroyImmediate (wallImpact,true);
         }
 	}
 
@@ -36,10 +38,11 @@ public class Bullet : MonoBehaviour {
         {
             attacked = col.gameObject.GetComponent<EnemyAttacked>();
             attacked.killBullet();
+
             Instantiate(bloodImpact, this.transform.position, this.transform.rotation);
             Destroy(this.gameObject);
         }
-        else
+		else if(col.gameObject.tag != "Bullet")
         {
             Instantiate(wallImpact, this.transform.position, this.transform.rotation);
             Destroy(this.gameObject);

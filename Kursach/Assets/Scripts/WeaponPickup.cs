@@ -31,6 +31,7 @@ public class WeaponPickup : MonoBehaviour
 			}
 			wa.setWeapon(this.gameObject, name, fireRate, gun, oneHanded);
 			this.gameObject.SetActive(false);
+
 		}
 	}
 }

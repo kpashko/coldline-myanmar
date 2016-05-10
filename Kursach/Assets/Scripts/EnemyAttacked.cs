@@ -33,12 +33,14 @@ public class EnemyAttacked : MonoBehaviour {
         sr.sprite = knockedDown;
         this.GetComponent<CircleCollider2D>().enabled = false;
         sr.sortingOrder = 2;
+		this.GetComponent<EnemyAI> ().enabled = false;
 
         if(knockDownTimer <= 0)
         {
             EnemyKnockedDown = false;
             sr.sprite = backUp;
             this.GetComponent<CircleCollider2D>().enabled = true;
+			this.GetComponent<EnemyAI> ().enabled = true;
             sr.sortingOrder = 5;
             knockDownTimer = 3.0f;
         }
@@ -46,10 +48,10 @@ public class EnemyAttacked : MonoBehaviour {
 
     public void killBullet()
     {
-        Debug.Log("Kill with bullet");
         sr.sprite = bulletWound;
         Instantiate(bloodPool, this.transform.position, this.transform.rotation);
         sr.sortingOrder = 2;
+		this.GetComponent<EnemyAI> ().enabled = false;
         this.GetComponent<CircleCollider2D>().enabled = false;
         this.gameObject.tag = "Dead";
     }
@@ -60,6 +62,7 @@ public class EnemyAttacked : MonoBehaviour {
         Instantiate(bloodPool, this.transform.position, this.transform.rotation);
         Instantiate(bloodSpurt, this.transform.position, this.transform.rotation);
         sr.sortingOrder = 2;
+		this.GetComponent<EnemyAI> ().enabled = false;
         this.GetComponent<CircleCollider2D>().enabled = false;
         this.gameObject.tag = "Dead";
     }
