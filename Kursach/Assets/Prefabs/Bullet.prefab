@@ -14,7 +14,7 @@ GameObject:
   - 58: {fileID: 5893788}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57,7 +57,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: {x: 1, y: 0, z: 0}
   bloodImpact: {fileID: 105666, guid: 9d82f9fd4ddce480f8846facfd6e5062, type: 2}
-  wallImpact: {fileID: 126570, guid: e187c22334d054855ab308bd1cdd4092, type: 2}
+  wallImpact: {fileID: 0}
 --- !u!212 &21294548
 SpriteRenderer:
   m_ObjectHideFlags: 1
