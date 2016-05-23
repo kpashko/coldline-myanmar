@@ -110,6 +110,7 @@ public class WeaponAttack : MonoBehaviour {
                     ea.killMelee();
                 }
             }
+			timer = timerReset;
         }
     }
 

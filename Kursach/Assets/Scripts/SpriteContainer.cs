@@ -58,4 +58,15 @@ public class SpriteContainer : MonoBehaviour {
 			break;
 		}
 	}
+
+	public Sprite[] getEnemySprite(string weapon)
+	{
+		if (weapon == "Mac10") {
+			return enemySMG;
+		} else if (weapon == "Bowie") {
+			return enemyKnife;
+		} else {
+			return enemyUnarmed;
+		}
+	}
 }

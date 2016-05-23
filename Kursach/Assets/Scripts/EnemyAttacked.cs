@@ -48,6 +48,8 @@ public class EnemyAttacked : MonoBehaviour {
 
     public void killBullet()
     {
+		this.GetComponent<EnemyWeaponController> ().dropWeapon();
+		this.GetComponent<EnemyWeaponController> ().enabled = false;
         sr.sprite = bulletWound;
         Instantiate(bloodPool, this.transform.position, this.transform.rotation);
         sr.sortingOrder = 2;
@@ -58,6 +60,8 @@ public class EnemyAttacked : MonoBehaviour {
 
     public void killMelee()
     {
+		this.GetComponent<EnemyWeaponController> ().dropWeapon();
+		this.GetComponent<EnemyWeaponController> ().enabled = false;
         sr.sprite = stabbed;
         Instantiate(bloodPool, this.transform.position, this.transform.rotation);
         Instantiate(bloodSpurt, this.transform.position, this.transform.rotation);

@@ -22,7 +22,6 @@ public class Bullet : MonoBehaviour {
         if(timer <= 0)
         {
             Destroy(this.gameObject);
-			DestroyImmediate (wallImpact,true);
         }
 	}
 
@@ -42,10 +41,10 @@ public class Bullet : MonoBehaviour {
             Instantiate(bloodImpact, this.transform.position, this.transform.rotation);
             Destroy(this.gameObject);
         }
-		else if(col.gameObject.tag != "Bullet")
-        {
-            Instantiate(wallImpact, this.transform.position, this.transform.rotation);
-            Destroy(this.gameObject);
-        }
+//		else if(col.gameObject.tag != "Bullet")
+//        {
+//            Instantiate(wallImpact, this.transform.position, this.transform.rotation);
+//            Destroy(this.gameObject);
+//        }
     }
 }
