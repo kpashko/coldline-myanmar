@@ -33,7 +33,8 @@ public class Bullet : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if(col.gameObject.tag == "Enemy")
+        Debug.Log(creator + "-" + col.gameObject.tag);
+        if (col.gameObject.tag == "Enemy")
         {
             attacked = col.gameObject.GetComponent<EnemyAttacked>();
             attacked.killBullet();
@@ -41,10 +42,23 @@ public class Bullet : MonoBehaviour {
             Instantiate(bloodImpact, this.transform.position, this.transform.rotation);
             Destroy(this.gameObject);
         }
-//		else if(col.gameObject.tag != "Bullet")
-//        {
-//            Instantiate(wallImpact, this.transform.position, this.transform.rotation);
-//            Destroy(this.gameObject);
-//        }
+        //		else if(col.gameObject.tag != "Bullet")
+        //        {
+        //            Instantiate(wallImpact, this.transform.position, this.transform.rotation);
+        //            Destroy(this.gameObject);
+        //        }
+        else if (col.gameObject.tag == "Enemy" && creator == "Enemy")
+        {
+        }
+        else if (col.gameObject.tag == "Player")
+        {
+            Instantiate(bloodImpact, this.transform.position, this.transform.rotation);
+            Destroy(this.gameObject);
+        }
+        else if (col.gameObject.tag != "Enemy" && col.gameObject.tag != "Player")
+        {
+            Instantiate(wallImpact, this.transform.position, this.transform.rotation);
+            Destroy(this.gameObject);
+        }
     }
 }

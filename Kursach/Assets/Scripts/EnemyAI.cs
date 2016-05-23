@@ -25,7 +25,7 @@ public class EnemyAI : MonoBehaviour {
 	void Start() {
 		player = GameObject.FindGameObjectWithTag ("Player");
 		playerLastPos = this.transform.position;
-		obj = GameObject.FindGameObjectWithTag<> ("GameController").GetComponent<ObjectManager>();
+		obj = GameObject.FindGameObjectWithTag("GameController").GetComponent<ObjectManager>();
 		rid = this.GetComponent<Rigidbody2D> ();
 		layerMask = ~layerMask;
 	}
@@ -33,6 +33,7 @@ public class EnemyAI : MonoBehaviour {
 	void Update() {
 		movement ();
 		playerDetect ();
+        canEnemyFindWeapon();
 	}
 
 	void movement() {
@@ -75,6 +76,12 @@ public class EnemyAI : MonoBehaviour {
 					}
 				}
 			}
+            if(weaponToGoTo != null)
+            {
+                patrol = false;
+                goingToWeapon = true;
+            }
+                
 		}
 
 		if (pursuingPlayer == true) {
@@ -100,7 +107,7 @@ public class EnemyAI : MonoBehaviour {
 
 		if(goingToWeapon == true){
 			speed = 3.0f;
-			rid.transform.eulerAngles = new Vector3 (0, 0, Mathf.Atan2 (weaponToGoTo.transform.position.y - transform.position.y, weaponToGoTo.transform.position.x - transform.position.x));
+			rid.transform.eulerAngles = new Vector3 (0, 0, Mathf.Atan2 ((weaponToGoTo.transform.position.y - transform.position.y), (weaponToGoTo.transform.position.x - transform.position.x)) * Mathf.Rad2Deg);
 			if (ewc.getCur () != null) {
 				weaponToGoTo = null;
 				patrol = false;
@@ -130,10 +137,10 @@ public class EnemyAI : MonoBehaviour {
 
 	void canEnemyFindWeapon()
 	{
-		if (ewc.getCur () == null && weaponToGo == null && goingToWeapon == false) {
+		if (ewc.getCur () == null && weaponToGoTo == null && goingToWeapon == false) {
 			weapons = obj.getWeapons ();
 			for (int x = 0; x < weapons.Length; x++) {
-				float distance = Vector3.Distance (this.transform.position, weapons [x], transform.position);
+				float distance = Vector3.Distance (this.transform.position, weapons [x].transform.position);
 				if (distance < 10) {
 					Vector3 dir = weapons [x].transform.position - transform.position;
 					RaycastHit2D wepCheck = Physics2D.Raycast (new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (dir.x, dir.y), distance, layerMask);
@@ -162,6 +169,11 @@ public class EnemyAI : MonoBehaviour {
 			}
 		}
 	}
+
+    public float getSpeed()
+    {
+        return speed;
+    }
 }
 
 

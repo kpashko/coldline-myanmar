@@ -17,19 +17,22 @@ public class EnemyWeaponController : MonoBehaviour {
 	EnemyAI eai;
 	GameObject player;
 
+    bool attacking = false;
 	SpriteRenderer sr;
+    EnemyAnimate ea;
 
 	// Use this for initialization
 	void Start () {
 		eai = this.GetComponent<EnemyAI> ();
 		player = GameObject.FindGameObjectWithTag ("Player");
-		sc = this.GetComponent<SpriteContainer> ();
+        sc = GameObject.FindGameObjectWithTag("GameController").GetComponent<SpriteContainer>();
 		sr = this.GetComponent<SpriteRenderer> ();
+        ea = this.GetComponent<EnemyAnimate>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (gun = true) {
+		if (gun == true) {
 			eai.hasGun = true;
 		} else {
 			eai.hasGun = false;
@@ -41,9 +44,11 @@ public class EnemyWeaponController : MonoBehaviour {
 
 		if (eai.hasGun == false && gun == false && eai.pursuingPlayer == true && timer <= 0 && Vector3.Distance (this.transform.position, player.transform.position) <= 1.6f) {
 			attack ();
+            ea.setAttacking();
 		}
 		else if(eai.hasGun == true && eai.pursuingPlayer == true && timer <= 0 && Vector3.Distance(this.transform.position, player.transform.position) <= 5.0f) {
 				attack();
+                ea.setAttacking();
 			}
 		if (changingWeapon == true) {
 			weaponChange -= Time.deltaTime;
@@ -53,16 +58,17 @@ public class EnemyWeaponController : MonoBehaviour {
 			}
 		}
 
-	public void setWeapon(GameObject cur, string name, float firerate, bool gun, bool oneHanded)
+	public void setWeapon(GameObject cur, string name, float fireRate, bool gun, bool oneHanded)
 	{
 		changingWeapon = true;
 		curWeapon = cur;
-		sr.sprite = sc.getEnemySprite (name);
+		//sr.sprite = sc.getEnemySprite(name);
 
 		this.gun = gun;
-		timerReset = firerate;
+		timerReset = fireRate;
 		timer = timerReset;
 		this.oneHanded = oneHanded;
+        ea.setTorsoSpr(name);
 	}
 
 	public void attack (){
@@ -91,7 +97,7 @@ public class EnemyWeaponController : MonoBehaviour {
 				Debug.Log ("Punching player");
 				//EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked> ();
 				//ea.knockDownEnemy();
-			} else if (ray.collider != 0) {
+			} else if (ray.collider != null) {
 				if (ray.collider.gameObject.tag == "Player") {
 					Debug.Log ("Melee attacking player");
 					//EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked> ();
