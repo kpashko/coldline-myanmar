@@ -11,7 +11,7 @@ public class ObjectManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		weapons = GameObject.FindGameObjectsWithTag ("weapon");
+		weapons = GameObject.FindGameObjectsWithTag ("Weapon");
 	}
 
 	public GameObject[] getWeapons()

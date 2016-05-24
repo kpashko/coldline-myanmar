@@ -26,7 +26,8 @@ public class EnemyAI : MonoBehaviour {
 		player = GameObject.FindGameObjectWithTag ("Player");
 		playerLastPos = this.transform.position;
 		obj = GameObject.FindGameObjectWithTag("GameController").GetComponent<ObjectManager>();
-		rid = this.GetComponent<Rigidbody2D> ();
+        ewc = this.GetComponent<EnemyWeaponController>();
+        rid = this.GetComponent<Rigidbody2D> ();
 		layerMask = ~layerMask;
 	}
 
@@ -110,14 +111,14 @@ public class EnemyAI : MonoBehaviour {
 			rid.transform.eulerAngles = new Vector3 (0, 0, Mathf.Atan2 ((weaponToGoTo.transform.position.y - transform.position.y), (weaponToGoTo.transform.position.x - transform.position.x)) * Mathf.Rad2Deg);
 			if (ewc.getCur () != null) {
 				weaponToGoTo = null;
-				patrol = false;
+				patrol = true;
 				goingToWeapon = false;
 				pursuingPlayer = false;
 				goingToLastLoc = false;
 				}
 				if (weaponToGoTo.active == false || weaponToGoTo == null) {
 					weaponToGoTo = null;
-					patrol = false;
+					patrol = true;
 					goingToWeapon = false;
 					pursuingPlayer = false;
 					goingToLastLoc = false;
