@@ -303,7 +303,7 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &263255672
 BoxCollider2D:
@@ -395,7 +395,7 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &527382957
 BoxCollider2D:
@@ -464,11 +464,11 @@ GameObject:
   - 4: {fileID: 624449943}
   - 212: {fileID: 624449944}
   - 50: {fileID: 624449945}
-  - 61: {fileID: 624449950}
   - 114: {fileID: 624449947}
   - 114: {fileID: 624449946}
   - 114: {fileID: 624449948}
   - 114: {fileID: 624449949}
+  - 58: {fileID: 624449950}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -533,7 +533,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -588,8 +588,8 @@ MonoBehaviour:
   oneHandSpawn: {fileID: 1953410335}
   twoHandSpawn: {fileID: 0}
   bullet: {fileID: 171536, guid: e28a28242765b9d43ac7da38db5121e7, type: 2}
---- !u!61 &624449950
-BoxCollider2D:
+--- !u!58 &624449950
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -601,7 +601,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.13, y: 0.24}
+  m_Radius: 0.12
 --- !u!1 &771724682
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,7 +633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Mac10
-  fireRate: 1
+  fireRate: 0.23
   gun: 1
   oneHanded: 1
 --- !u!212 &771724684
@@ -709,7 +709,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 0.71, y: 0.76}
+  m_Size: {x: 0.28, y: 0.2}
 --- !u!1 &777643120
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,7 +851,7 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &858863824
 BoxCollider2D:
@@ -904,7 +904,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 858863822}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.157, y: 0.902, z: 0}
+  m_LocalPosition: {x: -0.973, y: 0.483, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -943,7 +943,7 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &1028007726
 BoxCollider2D:
@@ -1139,7 +1139,7 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &1201855577
 BoxCollider2D:
@@ -1400,7 +1400,7 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &1442184548
 BoxCollider2D:
@@ -1663,7 +1663,7 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &1766444101
 BoxCollider2D:
@@ -1831,7 +1831,7 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &1875104028
 BoxCollider2D:
@@ -1982,7 +1982,7 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &1977886690
 BoxCollider2D:
@@ -2074,7 +2074,7 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &2015920814
 BoxCollider2D:
@@ -2237,7 +2237,7 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &2096859487
 BoxCollider2D:
@@ -2329,7 +2329,7 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &2112846958
 BoxCollider2D:

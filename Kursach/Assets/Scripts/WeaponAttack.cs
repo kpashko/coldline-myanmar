@@ -5,7 +5,7 @@ public class WeaponAttack : MonoBehaviour {
     public GameObject oneHandSpawn, twoHandSpawn, bullet;
     GameObject curWeapon;
 	bool gun = false;
-	float timer = 0.1f,timerReset = 0.1f;
+	float timer = 0.1f, timerReset = 0.1f;
 	PlayerAnimate pa;
 	SpriteContainer sc;
 
@@ -28,7 +28,8 @@ public class WeaponAttack : MonoBehaviour {
 
 		if(Input.GetMouseButton(0) && timer <= 0)
         {
-			attack ();
+			attack();
+            timer = timerReset;
 		}
 
 		if (Input.GetMouseButtonDown (0))
@@ -73,7 +74,7 @@ public class WeaponAttack : MonoBehaviour {
         pa.attack();
         if(gun == true)
         {
-            pa.attack();
+            //pa.attack();
             Bullet bl = bullet.GetComponent<Bullet>();
             Vector3 dir;
             dir.x = Vector2.right.x;

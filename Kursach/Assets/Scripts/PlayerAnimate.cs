@@ -31,7 +31,7 @@ public class PlayerAnimate : MonoBehaviour {
 
     void animateTorso()
     {
-        if (pm.moving == true)
+        if (pm.moving == true && attackingB == false)
         {
             torso.sprite = walking[counter];
             timer -= Time.deltaTime;
