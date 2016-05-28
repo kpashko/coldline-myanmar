@@ -116,7 +116,7 @@ public class EnemyAI : MonoBehaviour {
 				pursuingPlayer = false;
 				goingToLastLoc = false;
 				}
-				if (weaponToGoTo.active == false || weaponToGoTo == null) {
+				if ( weaponToGoTo == null) {
 					weaponToGoTo = null;
 					patrol = true;
 					goingToWeapon = false;

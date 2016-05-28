@@ -20,7 +20,7 @@ public class EnemyAnimate : MonoBehaviour {
         torsoSpr = sc.getEnemyWalk("");
         attackingSpr = sc.getEnemyWeapon("");
         ewc = this.GetComponent<EnemyWeaponController>();
-        legsSpr = sc.getPlayerLegs();
+		legsSpr = sc.eWalk;
 	}
 	
 	// Update is called once per frame

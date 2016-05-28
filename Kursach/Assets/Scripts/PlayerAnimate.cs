@@ -52,7 +52,7 @@ public class PlayerAnimate : MonoBehaviour {
 
 	void animateAttack()
 	{
-		torso.sprite = attacking [counter];
+		torso.sprite = attacking[counter];
 
 		timer -= Time.deltaTime;
 		if (timer <= 0) {
