@@ -19,7 +19,7 @@ public class EnemyAI : MonoBehaviour {
 	GameObject[] weapons;
 	EnemyWeaponController ewc;
 	public GameObject weaponToGoTo;
-	public bool goingToWeapon = false;
+    public bool goingToWeapon = false;
 	public bool hasGun = false;
 
 	void Start() {
@@ -112,22 +112,16 @@ public class EnemyAI : MonoBehaviour {
 				}
 
 		if(goingToWeapon == true){
-			speed = 3.0f;
+            
+            speed = 3.0f;
 			rid.transform.eulerAngles = new Vector3 (0, 0, Mathf.Atan2 ((weaponToGoTo.transform.position.y - transform.position.y), (weaponToGoTo.transform.position.x - transform.position.x)) * Mathf.Rad2Deg);
-			if (ewc.getCur () != null) {
+			if (ewc.getCur () != null || weaponToGoTo.activeSelf == false || weaponToGoTo) {
 				weaponToGoTo = null;
 				patrol = true;
 				goingToWeapon = false;
 				pursuingPlayer = false;
 				goingToLastLoc = false;
 				}
-				if ( weaponToGoTo == null) {
-					weaponToGoTo = null;
-					patrol = true;
-					goingToWeapon = false;
-					pursuingPlayer = false;
-					goingToLastLoc = false;
-			}
 		}					
 	}
 
@@ -145,14 +139,18 @@ public class EnemyAI : MonoBehaviour {
 
 	void canEnemyFindWeapon()
 	{
-		if (ewc.getCur () == null && weaponToGoTo == null && goingToWeapon == false) {
+		if (ewc.getCur () == null && weaponToGoTo == null && goingToWeapon == false)
+        {
 			weapons = obj.getWeapons ();
-			for (int x = 0; x < weapons.Length; x++) {
+			for (int x = 0; x < weapons.Length; x++)
+            {
 				float distance = Vector3.Distance (this.transform.position, weapons [x].transform.position);
-				if (distance < 10) {
+				if (distance < 10)
+                {
 					Vector3 dir = weapons [x].transform.position - transform.position;
 					RaycastHit2D wepCheck = Physics2D.Raycast (new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (dir.x, dir.y), distance, layerMask);
-					if (wepCheck.collider.gameObject.tag == "Weapon") {
+					if (wepCheck.collider.gameObject.tag == "Weapon")
+                    {
 						setWeaponToGoTo (weapons [x]);
 					}
 				}
@@ -165,12 +163,16 @@ public class EnemyAI : MonoBehaviour {
 	{
 		Vector3 pos = this.transform.InverseTransformPoint (player.transform.position);
 
-		if (hit.collider != null) {
-			if (hit.collider.gameObject.tag == "Player" && Vector3.Distance (this.transform.position, player.transform.position) < 9) {
+		if (hit.collider != null)
+        {
+			if (hit.collider.gameObject.tag == "Player" && Vector3.Distance (this.transform.position, player.transform.position) < 9)
+            {
 				patrol = false;
 				pursuingPlayer = true;
-			} else {
-				if (pursuingPlayer == true) {
+			} else
+            {
+				if (pursuingPlayer == true)
+                {
 					goingToLastLoc = true;
 					pursuingPlayer = false;
 				}
