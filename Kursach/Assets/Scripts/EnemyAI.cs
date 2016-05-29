@@ -67,7 +67,7 @@ public class EnemyAI : MonoBehaviour {
 		}
 
 		if (patrol == true) {
-			Debug.Log ("Patrolling normally");
+			//Debug.Log ("Patrolling normally");
 			speed = 2.0f;
 
 			if (hit2.collider != null) {
@@ -91,7 +91,7 @@ public class EnemyAI : MonoBehaviour {
 		}
 
 		if (pursuingPlayer == true) {
-			Debug.Log ("Pusuing player");
+			//Debug.Log ("Pusuing player");
 			speed = 3.5f;
 			rid.transform.eulerAngles = new Vector3 (0, 0, Mathf.Atan2((playerLastPos.y - transform.position.y), (playerLastPos.x - transform.position.x)) * Mathf.Rad2Deg);
 
@@ -101,7 +101,7 @@ public class EnemyAI : MonoBehaviour {
 		}
 
 		if (goingToLastLoc == true) {
-			Debug.Log ("Checking last known player location");
+			//Debug.Log ("Checking last known player location");
 			speed = 3.0f;
 			rid.transform.eulerAngles = new Vector3 (0, 0, Mathf.Atan2 ((playerLastPos.y - transform.position.y), (playerLastPos.x - transform.position.x)) * Mathf.Rad2Deg);
 

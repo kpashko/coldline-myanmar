@@ -92,23 +92,27 @@ public class WeaponAttack : MonoBehaviour {
         }
         else
         {
-			int layerMask = 1 << 9;
-			layerMask -= layerMask;
-            pa.attack();
-            RaycastHit2D ray = Physics2D.Raycast(new Vector2(this.transform.position.x, this.transform.position.y), new Vector2(this.transform.right.x, this.transform.right.y));
+			int layerMask = 1<<9;
+			layerMask = ~layerMask;
+            //pa.attack();
+            RaycastHit2D ray = Physics2D.Raycast(new Vector2(this.transform.position.x, this.transform.position.y), new Vector2(this.transform.right.x, this.transform.right.y), 1.5f, layerMask);
             Debug.DrawRay(new Vector2(this.transform.position.x, this.transform.position.y), new Vector2(this.transform.right.x, this.transform.right.y), Color.green);
 
-            if(curWeapon == null && ray.collider.gameObject.tag == "Enemy")
+            if (ray.collider != null)
             {
-                EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked>();
-                ea.knockDownEnemy();
-            }
-            else if(ray.collider != null)
-            {
-                if(ray.collider.gameObject.tag == "Enemy")
+                if (ray.collider.gameObject.tag == "Enemy")
                 {
-                    EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked>();
-                    ea.killMelee();
+                    if(curWeapon == null)
+                    {
+                        EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked>();
+                        ea.knockDownEnemy();
+                    }
+                    else
+                    {
+                        EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked>();
+                        ea.killMelee();
+                    }
+
                 }
             }
 			timer = timerReset;

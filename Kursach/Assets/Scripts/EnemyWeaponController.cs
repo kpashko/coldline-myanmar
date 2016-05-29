@@ -92,14 +92,14 @@ public class EnemyWeaponController : MonoBehaviour {
 
 			RaycastHit2D ray = Physics2D.Raycast (new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (transform.right.x, transform.right.y), 1.5f, layerMask);
 			Debug.DrawRay (new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (transform.right.x, transform.right.y), Color.green);
-			Debug.Log ("Attempting melee attack");
+			//Debug.Log ("Attempting melee attack");
 			if (curWeapon == null && ray.collider.gameObject.tag == "Player") {
-				Debug.Log ("Punching player");
+				//Debug.Log ("Punching player");
 				//EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked> ();
 				//ea.knockDownEnemy();
 			} else if (ray.collider != null) {
 				if (ray.collider.gameObject.tag == "Player") {
-					Debug.Log ("Melee attacking player");
+					//Debug.Log ("Melee attacking player");
 					//EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked> ();
 					//ea.killMelee;
 				}
