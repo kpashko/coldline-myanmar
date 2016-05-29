@@ -8,10 +8,12 @@ public class EnemyAttacked : MonoBehaviour {
     bool EnemyKnockedDown = false;
     float knockDownTimer = 3.0f;
     GameObject player;
+	ScoreController sc;
 	// Use this for initialization
 	void Start () {
         sr = this.GetComponent<SpriteRenderer>();
         player = GameObject.FindGameObjectWithTag("Player");
+		sc = GameObject.FindGameObjectWithTag ("GameController").GetComponent<ScoreController> ();
 	}
 	
 	// Update is called once per frame
@@ -29,8 +31,12 @@ public class EnemyAttacked : MonoBehaviour {
 
     void knockDown()
     {
-        this.GetComponent<EnemyWeaponController>().dropWeapon();
-        this.GetComponent<EnemyWeaponController>().enabled = false;
+		this.GetComponent<EnemyWeaponController> ().dropWeapon ();
+		if (this.GetComponent<EnemyWeaponController> ().enabled == true) {
+			sc.AddScore (500, this.transform.position);
+			this.GetComponent<EnemyWeaponController> ().enabled = false;
+		}
+			
         knockDownTimer -= Time.deltaTime;
         sr.sprite = knockedDown;
         this.GetComponent<CircleCollider2D>().enabled = false;
@@ -55,6 +61,8 @@ public class EnemyAttacked : MonoBehaviour {
 
     public void killBullet()
     {
+		sc.AddScore (500, this.transform.position);
+		sc.increaseMultiplier ();
 		this.GetComponent<EnemyWeaponController> ().dropWeapon();
 		this.GetComponent<EnemyWeaponController> ().enabled = false;
         sr.sprite = bulletWound;
@@ -69,6 +77,8 @@ public class EnemyAttacked : MonoBehaviour {
 
     public void killMelee()
     {
+		sc.AddScore (1000, this.transform.position);
+		sc.increaseMultiplier ();
 		this.GetComponent<EnemyWeaponController> ().dropWeapon();
 		this.GetComponent<EnemyWeaponController> ().enabled = false;
         sr.sprite = stabbed;
