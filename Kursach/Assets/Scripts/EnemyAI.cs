@@ -49,13 +49,18 @@ public class EnemyAI : MonoBehaviour {
 
 		Debug.DrawRay (new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (fwt.x, fwt.y), Color.cyan);
 
-		if (moving == true) {
-			if (hasGun == false) {
+		if (moving == true)
+        {
+			if (hasGun == false)
+            {
 				transform.Translate (Vector3.right * speed * Time.deltaTime);
-			} else {
-				if (Vector3.Distance (this.transform.position, player.transform.position) < 5 && pursuingPlayer == true) {
+			} else
+            {
+				if (Vector3.Distance (this.transform.position, player.transform.position) < 5 && pursuingPlayer == true)
+                {
 					//new enemy weapon
-				} else {
+				} else
+                {
 					transform.Translate (Vector3.right * speed * Time.deltaTime);
 				}
 			}
@@ -129,11 +134,13 @@ public class EnemyAI : MonoBehaviour {
 
 	void setWeaponToGoTo(GameObject weapon)
 	{
-		weaponToGoTo = weapon;
-		goingToWeapon = true;
-		patrol = false;
-		pursuingPlayer = false;
-		goingToLastLoc = false;
+        if (pursuingPlayer == false)
+        {
+            weaponToGoTo = weapon;
+            goingToWeapon = true;
+            patrol = false;
+            goingToLastLoc = false;
+        }
 	}
 
 	void canEnemyFindWeapon()
@@ -159,7 +166,7 @@ public class EnemyAI : MonoBehaviour {
 		Vector3 pos = this.transform.InverseTransformPoint (player.transform.position);
 
 		if (hit.collider != null) {
-			if (hit.collider.gameObject.tag == "Player" && pos.x > 1.2f && Vector3.Distance (this.transform.position, player.transform.position) < 9) {
+			if (hit.collider.gameObject.tag == "Player" && Vector3.Distance (this.transform.position, player.transform.position) < 9) {
 				patrol = false;
 				pursuingPlayer = true;
 			} else {
