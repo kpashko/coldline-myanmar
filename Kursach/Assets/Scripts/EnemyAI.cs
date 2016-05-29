@@ -133,7 +133,8 @@ public class EnemyAI : MonoBehaviour {
 
 
 	void setWeaponToGoTo(GameObject weapon)
-	{
+	{	
+		weaponToGoTo = null;
         if (pursuingPlayer == false)
         {
             weaponToGoTo = weapon;
