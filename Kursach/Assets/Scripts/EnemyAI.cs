@@ -32,9 +32,17 @@ public class EnemyAI : MonoBehaviour {
 	}
 
 	void Update() {
-		movement ();
-		playerDetect ();
-        canEnemyFindWeapon();
+        if (PlayerHealth.dead == false)
+        {
+            movement();
+            playerDetect();
+            canEnemyFindWeapon();
+        }
+        else
+        {
+            this.GetComponent<EnemyAnimate>().enabled = false;
+            this.GetComponent<EnemyWeaponController>().enabled = false;
+        }
 	}
 
 	void movement() {

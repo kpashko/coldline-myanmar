@@ -8,7 +8,7 @@ public class EnemyWeaponController : MonoBehaviour {
 	public bool gun = false;
 	float timer = 0.1f, timerReset = 0.1f;
 
-	SpriteContainer sc;
+    SpriteContainer sc;
 
 	float weaponChange = 0.5f;
 	bool changingWeapon = false;
@@ -42,14 +42,20 @@ public class EnemyWeaponController : MonoBehaviour {
 			timer -= Time.deltaTime;
 		}
 
-		if (eai.hasGun == false && gun == false && eai.pursuingPlayer == true && timer <= 0 && Vector3.Distance (this.transform.position, player.transform.position) <= 1.6f) {
-			attack ();
-            ea.setAttacking();
-		}
-		else if(eai.hasGun == true && eai.pursuingPlayer == true && timer <= 0 && Vector3.Distance(this.transform.position, player.transform.position) <= 5.0f) {
-				attack();
+        if (PlayerHealth.dead == false)
+        {
+            if (eai.hasGun == false && gun == false && eai.pursuingPlayer == true && timer <= 0 && Vector3.Distance(this.transform.position, player.transform.position) <= 1.6f)
+            {
+                attack();
                 ea.setAttacking();
-			}
+            }
+            else if (eai.hasGun == true && eai.pursuingPlayer == true && timer <= 0 && Vector3.Distance(this.transform.position, player.transform.position) <= 5.0f)
+            {
+                attack();
+                ea.setAttacking();
+            }
+        }
+
 		if (changingWeapon == true) {
 			weaponChange -= Time.deltaTime;
 			if(weaponChange <= 0){
@@ -94,15 +100,19 @@ public class EnemyWeaponController : MonoBehaviour {
 			Debug.DrawRay (new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (transform.right.x, transform.right.y), Color.green);
 			//Debug.Log ("Attempting melee attack");
 			if (curWeapon == null && ray.collider.gameObject.tag == "Player") {
-				//Debug.Log ("Punching player");
-				//EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked> ();
-				//ea.knockDownEnemy();
-			} else if (ray.collider != null) {
+                PlayerHealth.dead = true;
+                Instantiate(blood, this.transform.position, this.transform.rotation);
+                //Debug.Log ("Punching player");
+                //EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked> ();
+                //ea.knockDownEnemy();
+            } else if (ray.collider != null) {
 				if (ray.collider.gameObject.tag == "Player") {
-					//Debug.Log ("Melee attacking player");
-					//EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked> ();
-					//ea.killMelee;
-				}
+                    PlayerHealth.dead = true;
+                    Instantiate(blood, this.transform.position, this.transform.rotation);
+                    //Debug.Log ("Melee attacking player");
+                    //EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked> ();
+                    //ea.killMelee;
+                }
 			}
 
 			Instantiate (blood, player.transform.position, player.transform.rotation);

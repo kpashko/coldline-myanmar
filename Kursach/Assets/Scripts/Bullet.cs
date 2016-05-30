@@ -53,6 +53,7 @@ public class Bullet : MonoBehaviour {
         else if (col.gameObject.tag == "Player")
         {
             Instantiate(bloodImpact, this.transform.position, this.transform.rotation);
+            PlayerHealth.dead = true;
             Destroy(this.gameObject);
         }
         else if (col.gameObject.tag != "Enemy" && col.gameObject.tag != "Player" && col.gameObject.tag != "Bullet") //add "col.gameObject.tag != "Bullet"". Because when player and enemy shot, bullets can destroy each other

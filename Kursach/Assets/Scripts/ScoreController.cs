@@ -72,9 +72,16 @@ public class ScoreController : MonoBehaviour {
 		Rect scorePos = new Rect (originalWidth - 500, (originalHeight - originalHeight) + 50, 200, 100);
 		Rect multiPos = new Rect (originalWidth - 500, (originalHeight - originalHeight) + 100, 200, 100);
 		Rect bgPos = new Rect (originalWidth - 750, (originalHeight - originalHeight) + 50, 700, 150);
-		GUI.DrawTexture (bgPos, bg);
-		GUI.Box (scorePos, "Score:  " + score, text);
-		GUI.Box (multiPos, "Combo:  " + currentMultiplier + " * " + tempScoreHold + " - " + (int)comboTimer, text);
+        GUI.DrawTexture(bgPos, bg);
+        if (PlayerHealth.dead == false)
+        {
+            GUI.Box(scorePos, "Score:  " + score, text);
+            GUI.Box(multiPos, "Combo:  " + currentMultiplier + " * " + tempScoreHold + " - " + (int)comboTimer, text);
+        }
+        else
+        {
+            GUI.Box(scorePos, "You Died", text);
+        }
 		GUI.matrix = svMat;
 	}
 }
