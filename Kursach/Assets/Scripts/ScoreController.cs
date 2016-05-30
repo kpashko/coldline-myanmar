@@ -35,7 +35,7 @@ public class ScoreController : MonoBehaviour {
 		if (val == 500) {
 			Instantiate (fiveHun, spawnPos, fiveHun.transform.rotation);
 		} else if (val == 1000) {
-			Instantiate (thou, spawnPos, fiveHun.transform.rotation); //thou.transform?
+			Instantiate (thou, spawnPos, thou.transform.rotation); //thou.transform?
 		}
 	}
 
