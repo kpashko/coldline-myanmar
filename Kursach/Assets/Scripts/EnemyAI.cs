@@ -170,7 +170,7 @@ public class EnemyAI : MonoBehaviour {
 
 	public void playerDetect()
 	{
-		Vector3 pos = this.transform.InverseTransformPoint (player.transform.position);
+		//Vector3 pos = this.transform.InverseTransformPoint (player.transform.position);
 
 		if (hit.collider != null)
         {
@@ -178,12 +178,14 @@ public class EnemyAI : MonoBehaviour {
             {
 				patrol = false;
 				pursuingPlayer = true;
+				//goingToWeapon = false; // что с этим решили?
 			} else
             {
 				if (pursuingPlayer == true)
                 {
 					goingToLastLoc = true;
 					pursuingPlayer = false;
+					//goingToWeapon = false;//
 				}
 			}
 		}
