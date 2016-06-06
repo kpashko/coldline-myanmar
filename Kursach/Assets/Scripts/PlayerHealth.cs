@@ -88,7 +88,7 @@ public class PlayerHealth : MonoBehaviour {
         GUI.matrix = Matrix4x4.TRS(Vector3.zero, Quaternion.identity, scale);
 
 		if (dead == true) {
-			Rect positionForRestart = new Rect(100, originalHeight - 200, 700, 100);
+			Rect positionForRestart = new Rect(100, originalHeight - 200, 720, 100);
             GUI.DrawTexture(positionForRestart, bg);
             //need fix this
             GUI.Box(positionForRestart, "Press 'R' to restart", text);
