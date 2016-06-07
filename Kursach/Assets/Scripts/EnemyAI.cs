@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 
 public class EnemyAI : MonoBehaviour {
@@ -53,7 +54,7 @@ public class EnemyAI : MonoBehaviour {
 
 		Vector3 fwt = this.transform.TransformDirection (Vector3.right);
 
-		RaycastHit2D hit2 = Physics2D.Raycast (new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (fwt.x, fwt.y), 1.0f, layerMask);
+        RaycastHit2D hit2 = Physics2D.Raycast (new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (fwt.x, fwt.y), 1.0f, layerMask);
 
 		Debug.DrawRay (new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (fwt.x, fwt.y), Color.cyan);
 
@@ -172,22 +173,21 @@ public class EnemyAI : MonoBehaviour {
 
 	public void playerDetect()
 	{
-		//Vector3 pos = this.transform.InverseTransformPoint (player.transform.position);
-
 		if (hit.collider != null)
         {
-			if (hit.collider.gameObject.tag == "Player" && Vector3.Distance (this.transform.position, player.transform.position) < 9)
+            float distance = Vector3.Distance(this.transform.position, player.transform.position);
+
+            if (hit.collider.gameObject.tag == "Player" && distance < 9.0f && 5 * this.transform.InverseTransformPoint(player.transform.position).x > 0.18 * distance)
             {
 				patrol = false;
 				pursuingPlayer = true;
-				//goingToWeapon = false; // что с этим решили?
-			} else
+			}
+            else
             {
 				if (pursuingPlayer == true)
                 {
 					goingToLastLoc = true;
 					pursuingPlayer = false;
-					//goingToWeapon = false;//
 				}
 			}
 		}

@@ -8,8 +8,8 @@ public class PlayerAnimate : MonoBehaviour {
     float timer = 0.05f, legTimer = 0.05f;
     public SpriteRenderer torso, legs;
     SpriteContainer sc;
-
 	bool attackingB = false;
+
     // Use this for initialization
     void Start () {
         pm = this.GetComponent<PlayerMovement> ();
