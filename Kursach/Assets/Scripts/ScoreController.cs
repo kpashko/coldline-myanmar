@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
+
 
 public class ScoreController : MonoBehaviour {
 
@@ -14,15 +16,20 @@ public class ScoreController : MonoBehaviour {
 	public GUIStyle text;
 	public Texture2D bg;
 	public GameObject fiveHun, thou;
+	public GameObject[] enemies;
 
 	// Use this for initialization
 	void Start () {
-	
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		comboCountdown ();
+		if (allEnemiesDead() == true) {
+			if (Input.GetKeyDown (KeyCode.R)) {
+				SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+			}
+		}
 	}
 
 	public void AddScore(int val, Vector3 position)
@@ -59,6 +66,18 @@ public class ScoreController : MonoBehaviour {
 			}
 		}
 	}
+		
+	
+	public bool allEnemiesDead()
+	{
+		for (int i = 0; i < enemies.Length; i++) {
+			if (enemies [i].tag != "Dead") {
+				return false;
+			}
+		}
+		return true;
+	}
+
 
 	void OnGUI()
 	{
@@ -72,12 +91,19 @@ public class ScoreController : MonoBehaviour {
 		Rect scorePos = new Rect (originalWidth - 500, (originalHeight - originalHeight) + 50, 200, 100);
 		Rect multiPos = new Rect (originalWidth - 500, (originalHeight - originalHeight) + 100, 200, 100);
 		Rect bgPos = new Rect (originalWidth - 750, (originalHeight - originalHeight) + 50, 700, 150);
+		Rect positionForRestart = new Rect(100, originalHeight - 200, 720, 100);
         GUI.DrawTexture(bgPos, bg);
-        if (PlayerHealth.dead == false)
-        {
-            GUI.Box(scorePos, "Score:  " + score, text);
-            GUI.Box(multiPos, "Combo:  " + currentMultiplier + " * " + tempScoreHold + " - " + (int)comboTimer, text);
-        }
+		if (allEnemiesDead () == true) {
+			GUI.Box (scorePos, "Level cleared!", text);
+			GUI.Box (multiPos, "Your score: " + score, text);
+			GUI.DrawTexture(positionForRestart, bg);
+			GUI.Box(positionForRestart, "Press 'R' to restart", text);
+		}
+		else if (PlayerHealth.dead == false) {
+			GUI.Box (scorePos, "Score:  " + score, text);
+			GUI.Box (multiPos, "Combo:  " + currentMultiplier + " * " + tempScoreHold + " - " + (int)comboTimer, text);
+		} 
+
         else
         {
             GUI.Box(scorePos, "You Died", text);

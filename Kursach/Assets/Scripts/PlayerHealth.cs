@@ -90,7 +90,6 @@ public class PlayerHealth : MonoBehaviour {
 		if (dead == true) {
 			Rect positionForRestart = new Rect(100, originalHeight - 200, 720, 100);
             GUI.DrawTexture(positionForRestart, bg);
-            //need fix this
             GUI.Box(positionForRestart, "Press 'R' to restart", text);
         }
 
