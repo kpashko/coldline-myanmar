@@ -50,7 +50,7 @@ public class Bullet : MonoBehaviour {
         else if (col.gameObject.tag == "Enemy" && creator == "Enemy")
         {
         }
-        else if (col.gameObject.tag == "Player")
+        else if (col.gameObject.tag == "Player" && creator == "Enemy")
         {
             Instantiate(bloodImpact, this.transform.position, this.transform.rotation);
             PlayerHealth.dead = true;

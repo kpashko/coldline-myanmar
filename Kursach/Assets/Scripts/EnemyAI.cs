@@ -48,7 +48,7 @@ public class EnemyAI : MonoBehaviour {
 	void movement() {
 		float dist = Vector3.Distance (player.transform.position, this.transform.position);
 		Vector3 dir = player.transform.position - transform.position;
-		hit = Physics2D.Raycast(new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (dir.x, dir.y), dist, layerMask);
+        hit = Physics2D.Raycast(new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (dir.x, dir.y), dist, layerMask);
 		Debug.DrawRay (transform.position, dir, Color.red);
 
 		Vector3 fwt = this.transform.TransformDirection (Vector3.right);
@@ -80,9 +80,11 @@ public class EnemyAI : MonoBehaviour {
 
 			if (hit2.collider != null) {
 
-				if (hit2.collider.gameObject.tag == "Wall") {
+                //if (hit2.collider.gameObject.tag == "Wall") {
+                if (hit2.collider.gameObject.tag != "Player")
+                {
 
-					if (clockwise == false) {
+                    if (clockwise == false) {
 						
 						transform.Rotate (0, 0, 90);
 					} else {
