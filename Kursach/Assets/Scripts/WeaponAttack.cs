@@ -50,6 +50,7 @@ public class WeaponAttack : MonoBehaviour {
 
 		if (changingWeapon == true)
         {
+            Debug.Log("changingWeapon");
 			weaponChange -= Time.deltaTime;
 			if (weaponChange <= 0)
             {

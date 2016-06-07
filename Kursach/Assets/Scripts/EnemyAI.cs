@@ -32,7 +32,8 @@ public class EnemyAI : MonoBehaviour {
 		layerMask = ~layerMask;
 	}
 
-	void Update() {
+	void Update()
+    {
         if (PlayerHealth.dead == false)
         {
             movement();
@@ -46,10 +47,11 @@ public class EnemyAI : MonoBehaviour {
         }
 	}
 
-	void movement() {
-		float dist = Vector3.Distance (player.transform.position, this.transform.position);
-		Vector3 dir = player.transform.position - transform.position;
-        hit = Physics2D.Raycast(new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (dir.x, dir.y), dist, layerMask);
+	void movement()
+    {
+		float dist = Vector2.Distance (player.transform.position, this.transform.position);
+		Vector2 dir = player.transform.position - transform.position;
+        hit = Physics2D.Raycast(new Vector2 (this.transform.position.x, this.transform.position.y), dir, Vector2.Distance(player.transform.position, this.transform.position), layerMask);
 		Debug.DrawRay (transform.position, dir, Color.red);
 
 		Vector3 fwt = this.transform.TransformDirection (Vector3.right);
@@ -151,19 +153,19 @@ public class EnemyAI : MonoBehaviour {
 
 	void canEnemyFindWeapon()
 	{
-		if (ewc.getCur () == null && weaponToGoTo == null && goingToWeapon == false)
+		if (ewc.getCur() == null && weaponToGoTo == null && goingToWeapon == false)
         {
 			weapons = obj.getWeapons ();
-			for (int x = 0; x < weapons.Length; x++)
+			for (int i = 0; i < weapons.Length; i++)
             {
-				float distance = Vector3.Distance (this.transform.position, weapons [x].transform.position);
+				float distance = Vector3.Distance (this.transform.position, weapons[i].transform.position);
 				if (distance < 10)
                 {
-					Vector3 dir = weapons [x].transform.position - transform.position;
+					Vector3 dir = weapons [i].transform.position - transform.position;
 					RaycastHit2D wepCheck = Physics2D.Raycast (new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (dir.x, dir.y), distance, layerMask);
 					if (wepCheck.collider.gameObject.tag == "Weapon")
                     {
-						setWeaponToGoTo (weapons [x]);
+						setWeaponToGoTo(weapons[i]);
 					}
 				}
 			}

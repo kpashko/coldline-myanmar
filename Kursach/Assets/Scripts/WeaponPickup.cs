@@ -21,7 +21,6 @@ public class WeaponPickup : MonoBehaviour
 
 	void OnTriggerStay2D(Collider2D coll)
 	{
-		Debug.Log("Collision");
         if (coll.gameObject.tag == "Player" && Input.GetMouseButtonDown(1))
         { //code to add weapon to player
             Debug.Log("Player picked up: " + name);
