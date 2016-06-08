@@ -32,27 +32,21 @@ public class EnemyWeaponController : MonoBehaviour {
 	
 	void Update ()
     {
-		if (gun == true)
-        {
-			eai.hasGun = true;
-		}
-        else
-        {
-			eai.hasGun = false;
-		}
+        eai.hasGun = gun;
 
 		if (weaponFireRate > 0) {
             weaponFireRate -= Time.deltaTime;
 		}
 
-        if (PlayerHealth.dead == false)
+        if (PlayerHealth.dead == false && changingWeapon == false)
         {
-            if (eai.hasGun == false && gun == false && eai.pursuingPlayer == true && weaponFireRate <= 0 && Vector3.Distance(this.transform.position, player.transform.position) <= 1.6f)
+            float distance = Vector3.Distance(this.transform.position, player.transform.position);
+            if (gun == false && eai.pursuingPlayer == true && weaponFireRate <= 0 && distance <= 1.6f)
             {
                 attack();
                 ea.setAttacking();
             }
-            else if (eai.hasGun == true && eai.pursuingPlayer == true && weaponFireRate <= 0 && Vector3.Distance(this.transform.position, player.transform.position) <= 5.0f)
+            else if (gun == true && eai.pursuingPlayer == true && weaponFireRate <= 0 && distance <= 5.0f)
             {
                 attack();
                 ea.setAttacking();
@@ -114,8 +108,7 @@ public class EnemyWeaponController : MonoBehaviour {
                 PlayerHealth.dead = true;
                 Instantiate(blood, this.transform.position, this.transform.rotation);
             }
-
-			Instantiate (blood, player.transform.position, player.transform.rotation);
+            
             weaponFireRate = timerReset;
 		}
 	}
