@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerAnimate : MonoBehaviour {
     Sprite[] walking, attacking, legsSpr;
-    int counter = 0, legCount = 0;
+    int counter = 0, aCounter = 0, legCount = 0;
     PlayerMovement pm;
     float timer = 0.05f, legTimer = 0.05f;
     public SpriteRenderer torso, legs;
@@ -52,17 +52,17 @@ public class PlayerAnimate : MonoBehaviour {
 
 	void animateAttack()
 	{
-		torso.sprite = attacking[counter];
+		torso.sprite = attacking[aCounter];
 
 		timer -= Time.deltaTime;
 		if (timer <= 0) {
-			if (counter < attacking.Length - 1) {
-				counter++;
+			if (aCounter < attacking.Length - 1) {
+                aCounter++;
 			} else {
 				if (attackingB == true) {
 					attackingB = false;
 				}
-				counter = 0;
+                aCounter = 0;
 			}
 			timer = 0.05f;
 		}
@@ -99,7 +99,9 @@ public class PlayerAnimate : MonoBehaviour {
 	public void resetCounter()
 	{
 		counter = 0;
-	}
+        aCounter = 0;
+
+    }
 
 	public bool getAttack()
 	{
@@ -117,6 +119,7 @@ public class PlayerAnimate : MonoBehaviour {
     public void resetSprites()
     {
         counter = 0;
+        aCounter = 0;
         attacking = sc.getPlayerPunch();
         walking = sc.getPlayerUnarmedWalk();
         torso.sprite = walking[0];
@@ -125,7 +128,8 @@ public class PlayerAnimate : MonoBehaviour {
 	public void setNewTorso(Sprite[] walk,Sprite[] attack)
 	{
 		counter = 0;
-		attacking = attack;
+        aCounter = 0;
+        attacking = attack;
 		walking = walk;
         torso.sprite = walking[0];
 	}
