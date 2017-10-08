@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class SpriteContainer : MonoBehaviour {
-	public Sprite[] pLegs, pUnarmedWalk, pPunch, pMac10Walk, pMac10Attack, pBowieWalk, pBowieAttack;
+    public Sprite[] pLegs, pUnarmedWalk, pPunch, pMac10Walk, pMac10Attack, pBowieWalk, pBowieAttack, ePunch, eMac10Walk, eMac10Attack, eBowieWalk, eBowieAttack, eUnarmedWalk, eWalk;
+    public Sprite enemySMG, enemyKnife, enemyUnarmed;
 	// Use this for initialization
 	void Start () {
 	
@@ -33,7 +34,7 @@ public class SpriteContainer : MonoBehaviour {
 		switch (weapon) {
 		case "Mac10":
 			return pMac10Attack;
-			break;
+            break;
 		case "Bowie":
 			return pBowieAttack;
 			break;
@@ -58,4 +59,52 @@ public class SpriteContainer : MonoBehaviour {
 			break;
 		}
 	}
+
+	public Sprite getEnemySprite(string weapon)
+	{
+		if (weapon == "Mac10") {
+			return enemySMG;
+		} else if (weapon == "Bowie") {
+			return enemyKnife;
+		} else {
+			return enemyUnarmed;
+		}
+	}
+
+    public Sprite[] getEnemyPunch()
+    {
+        return ePunch;
+    }
+
+    public Sprite[] getEnemyWeapon(string weapon)
+    {
+        switch (weapon)
+        {
+            case "Mac10":
+                return eMac10Attack;
+                break;
+            case "Bowie":
+                return eBowieAttack;
+                break;
+            default:
+                return getEnemyPunch();
+                break;
+        }
+    }
+
+    public Sprite[] getEnemyWalk(string weapon)
+    {
+        switch (weapon)
+        {
+            case "Mac10":
+                return eMac10Walk;
+                break;
+            case "Bowie":
+                return eBowieWalk;
+                break;
+            default:
+                return eUnarmedWalk;
+                break;
+        }
+    }
 }

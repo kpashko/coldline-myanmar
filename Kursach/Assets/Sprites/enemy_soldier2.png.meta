@@ -1,0 +1,4510 @@
+fileFormatVersion: 2
+guid: 9329a8758f5ba6549b1220796168ea53
+timeCreated: 1464123270
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: enemy_soldier2_0
+    21300002: enemy_soldier2_1
+    21300004: enemy_soldier2_2
+    21300006: enemy_soldier2_3
+    21300008: enemy_soldier2_4
+    21300010: enemy_soldier2_5
+    21300012: enemy_soldier2_6
+    21300014: enemy_soldier2_7
+    21300016: enemy_soldier2_8
+    21300018: enemy_soldier2_9
+    21300020: enemy_soldier2_10
+    21300022: enemy_soldier2_11
+    21300024: enemy_soldier2_12
+    21300026: enemy_soldier2_13
+    21300028: enemy_soldier2_14
+    21300030: enemy_soldier2_15
+    21300032: enemy_soldier2_16
+    21300034: enemy_soldier2_17
+    21300036: enemy_soldier2_18
+    21300038: enemy_soldier2_19
+    21300040: enemy_soldier2_20
+    21300042: enemy_soldier2_21
+    21300044: enemy_soldier2_22
+    21300046: enemy_soldier2_23
+    21300048: enemy_soldier2_24
+    21300050: enemy_soldier2_25
+    21300052: enemy_soldier2_26
+    21300054: enemy_soldier2_27
+    21300056: enemy_soldier2_28
+    21300058: enemy_soldier2_29
+    21300060: enemy_soldier2_30
+    21300062: enemy_soldier2_31
+    21300064: enemy_soldier2_32
+    21300066: enemy_soldier2_33
+    21300068: enemy_soldier2_34
+    21300070: enemy_soldier2_35
+    21300072: enemy_soldier2_36
+    21300074: enemy_soldier2_37
+    21300076: enemy_soldier2_38
+    21300078: enemy_soldier2_39
+    21300080: enemy_soldier2_40
+    21300082: enemy_soldier2_41
+    21300084: enemy_soldier2_42
+    21300086: enemy_soldier2_43
+    21300088: enemy_soldier2_44
+    21300090: enemy_soldier2_45
+    21300092: enemy_soldier2_46
+    21300094: enemy_soldier2_47
+    21300096: enemy_soldier2_48
+    21300098: enemy_soldier2_49
+    21300100: enemy_soldier2_50
+    21300102: enemy_soldier2_51
+    21300104: enemy_soldier2_52
+    21300106: enemy_soldier2_53
+    21300108: enemy_soldier2_54
+    21300110: enemy_soldier2_55
+    21300112: enemy_soldier2_56
+    21300114: enemy_soldier2_57
+    21300116: enemy_soldier2_58
+    21300118: enemy_soldier2_59
+    21300120: enemy_soldier2_60
+    21300122: enemy_soldier2_61
+    21300124: enemy_soldier2_62
+    21300126: enemy_soldier2_63
+    21300128: enemy_soldier2_64
+    21300130: enemy_soldier2_65
+    21300132: enemy_soldier2_66
+    21300134: enemy_soldier2_67
+    21300136: enemy_soldier2_68
+    21300138: enemy_soldier2_69
+    21300140: enemy_soldier2_70
+    21300142: enemy_soldier2_71
+    21300144: enemy_soldier2_72
+    21300146: enemy_soldier2_73
+    21300148: enemy_soldier2_74
+    21300150: enemy_soldier2_75
+    21300152: enemy_soldier2_76
+    21300154: enemy_soldier2_77
+    21300156: enemy_soldier2_78
+    21300158: enemy_soldier2_79
+    21300160: enemy_soldier2_80
+    21300162: enemy_soldier2_81
+    21300164: enemy_soldier2_82
+    21300166: enemy_soldier2_83
+    21300168: enemy_soldier2_84
+    21300170: enemy_soldier2_85
+    21300172: enemy_soldier2_86
+    21300174: enemy_soldier2_87
+    21300176: enemy_soldier2_88
+    21300178: enemy_soldier2_89
+    21300180: enemy_soldier2_90
+    21300182: enemy_soldier2_91
+    21300184: enemy_soldier2_92
+    21300186: enemy_soldier2_93
+    21300188: enemy_soldier2_94
+    21300190: enemy_soldier2_95
+    21300192: enemy_soldier2_96
+    21300194: enemy_soldier2_97
+    21300196: enemy_soldier2_98
+    21300198: enemy_soldier2_99
+    21300200: enemy_soldier2_100
+    21300202: enemy_soldier2_101
+    21300204: enemy_soldier2_102
+    21300206: enemy_soldier2_103
+    21300208: enemy_soldier2_104
+    21300210: enemy_soldier2_105
+    21300212: enemy_soldier2_106
+    21300214: enemy_soldier2_107
+    21300216: enemy_soldier2_108
+    21300218: enemy_soldier2_109
+    21300220: enemy_soldier2_110
+    21300222: enemy_soldier2_111
+    21300224: enemy_soldier2_112
+    21300226: enemy_soldier2_113
+    21300228: enemy_soldier2_114
+    21300230: enemy_soldier2_115
+    21300232: enemy_soldier2_116
+    21300234: enemy_soldier2_117
+    21300236: enemy_soldier2_118
+    21300238: enemy_soldier2_119
+    21300240: enemy_soldier2_120
+    21300242: enemy_soldier2_121
+    21300244: enemy_soldier2_122
+    21300246: enemy_soldier2_123
+    21300248: enemy_soldier2_124
+    21300250: enemy_soldier2_125
+    21300252: enemy_soldier2_126
+    21300254: enemy_soldier2_127
+    21300256: enemy_soldier2_128
+    21300258: enemy_soldier2_129
+    21300260: enemy_soldier2_130
+    21300262: enemy_soldier2_131
+    21300264: enemy_soldier2_132
+    21300266: enemy_soldier2_133
+    21300268: enemy_soldier2_134
+    21300270: enemy_soldier2_135
+    21300272: enemy_soldier2_136
+    21300274: enemy_soldier2_137
+    21300276: enemy_soldier2_138
+    21300278: enemy_soldier2_139
+    21300280: enemy_soldier2_140
+    21300282: enemy_soldier2_141
+    21300284: enemy_soldier2_142
+    21300286: enemy_soldier2_143
+    21300288: enemy_soldier2_144
+    21300290: enemy_soldier2_145
+    21300292: enemy_soldier2_146
+    21300294: enemy_soldier2_147
+    21300296: enemy_soldier2_148
+    21300298: enemy_soldier2_149
+    21300300: enemy_soldier2_150
+    21300302: enemy_soldier2_151
+    21300304: enemy_soldier2_152
+    21300306: enemy_soldier2_153
+    21300308: enemy_soldier2_154
+    21300310: enemy_soldier2_155
+    21300312: enemy_soldier2_156
+    21300314: enemy_soldier2_157
+    21300316: enemy_soldier2_158
+    21300318: enemy_soldier2_159
+    21300320: enemy_soldier2_160
+    21300322: enemy_soldier2_161
+    21300324: enemy_soldier2_162
+    21300326: enemy_soldier2_163
+    21300328: enemy_soldier2_164
+    21300330: enemy_soldier2_165
+    21300332: enemy_soldier2_166
+    21300334: enemy_soldier2_167
+    21300336: enemy_soldier2_168
+    21300338: enemy_soldier2_169
+    21300340: enemy_soldier2_170
+    21300342: enemy_soldier2_171
+    21300344: enemy_soldier2_172
+    21300346: enemy_soldier2_173
+    21300348: enemy_soldier2_174
+    21300350: enemy_soldier2_175
+    21300352: enemy_soldier2_176
+    21300354: enemy_soldier2_177
+    21300356: enemy_soldier2_178
+    21300358: enemy_soldier2_179
+    21300360: enemy_soldier2_180
+    21300362: enemy_soldier2_181
+    21300364: enemy_soldier2_182
+    21300366: enemy_soldier2_183
+    21300368: enemy_soldier2_184
+    21300370: enemy_soldier2_185
+    21300372: enemy_soldier2_186
+    21300374: enemy_soldier2_187
+    21300376: enemy_soldier2_188
+    21300378: enemy_soldier2_189
+    21300380: enemy_soldier2_190
+    21300382: enemy_soldier2_191
+    21300384: enemy_soldier2_192
+    21300386: enemy_soldier2_193
+    21300388: enemy_soldier2_194
+    21300390: enemy_soldier2_195
+    21300392: enemy_soldier2_196
+    21300394: enemy_soldier2_197
+    21300396: enemy_soldier2_198
+    21300398: enemy_soldier2_199
+    21300400: enemy_soldier2_200
+    21300402: enemy_soldier2_201
+    21300404: enemy_soldier2_202
+    21300406: enemy_soldier2_203
+    21300408: enemy_soldier2_204
+    21300410: enemy_soldier2_205
+    21300412: enemy_soldier2_206
+    21300414: enemy_soldier2_207
+    21300416: enemy_soldier2_208
+    21300418: enemy_soldier2_209
+    21300420: enemy_soldier2_210
+    21300422: enemy_soldier2_211
+    21300424: enemy_soldier2_212
+    21300426: enemy_soldier2_213
+    21300428: enemy_soldier2_214
+    21300430: enemy_soldier2_215
+    21300432: enemy_soldier2_216
+    21300434: enemy_soldier2_217
+    21300436: enemy_soldier2_218
+    21300438: enemy_soldier2_219
+    21300440: enemy_soldier2_220
+    21300442: enemy_soldier2_221
+    21300444: enemy_soldier2_222
+    21300446: enemy_soldier2_223
+    21300448: enemy_soldier2_224
+    21300450: enemy_soldier2_225
+    21300452: enemy_soldier2_226
+    21300454: enemy_soldier2_227
+    21300456: enemy_soldier2_228
+    21300458: enemy_soldier2_229
+    21300460: enemy_soldier2_230
+    21300462: enemy_soldier2_231
+    21300464: enemy_soldier2_232
+    21300466: enemy_soldier2_233
+    21300468: enemy_soldier2_234
+    21300470: enemy_soldier2_235
+    21300472: enemy_soldier2_236
+    21300474: enemy_soldier2_237
+    21300476: enemy_soldier2_238
+    21300478: enemy_soldier2_239
+    21300480: enemy_soldier2_240
+    21300482: enemy_soldier2_241
+    21300484: enemy_soldier2_242
+    21300486: enemy_soldier2_243
+    21300488: enemy_soldier2_244
+    21300490: enemy_soldier2_245
+    21300492: enemy_soldier2_246
+    21300494: enemy_soldier2_247
+    21300496: enemy_soldier2_248
+    21300498: enemy_soldier2_249
+    21300500: enemy_soldier2_250
+    21300502: enemy_soldier2_251
+    21300504: enemy_soldier2_252
+    21300506: enemy_soldier2_253
+    21300508: enemy_soldier2_254
+    21300510: enemy_soldier2_255
+    21300512: enemy_soldier2_256
+    21300514: enemy_soldier2_257
+    21300516: enemy_soldier2_258
+    21300518: enemy_soldier2_259
+    21300520: enemy_soldier2_260
+    21300522: enemy_soldier2_261
+    21300524: enemy_soldier2_262
+    21300526: enemy_soldier2_263
+    21300528: enemy_soldier2_264
+    21300530: enemy_soldier2_265
+    21300532: enemy_soldier2_266
+    21300534: enemy_soldier2_267
+    21300536: enemy_soldier2_268
+    21300538: enemy_soldier2_269
+    21300540: enemy_soldier2_270
+    21300542: enemy_soldier2_271
+    21300544: enemy_soldier2_272
+    21300546: enemy_soldier2_273
+    21300548: enemy_soldier2_274
+    21300550: enemy_soldier2_275
+    21300552: enemy_soldier2_276
+    21300554: enemy_soldier2_277
+    21300556: enemy_soldier2_278
+    21300558: enemy_soldier2_279
+    21300560: enemy_soldier2_280
+    21300562: enemy_soldier2_281
+    21300564: enemy_soldier2_282
+    21300566: enemy_soldier2_283
+    21300568: enemy_soldier2_284
+    21300570: enemy_soldier2_285
+    21300572: enemy_soldier2_286
+    21300574: enemy_soldier2_287
+    21300576: enemy_soldier2_288
+    21300578: enemy_soldier2_289
+    21300580: enemy_soldier2_290
+    21300582: enemy_soldier2_291
+    21300584: enemy_soldier2_292
+    21300586: enemy_soldier2_293
+    21300588: enemy_soldier2_294
+    21300590: enemy_soldier2_295
+    21300592: enemy_soldier2_296
+    21300594: enemy_soldier2_297
+    21300596: enemy_soldier2_298
+    21300598: enemy_soldier2_299
+    21300600: enemy_soldier2_300
+    21300602: enemy_soldier2_301
+    21300604: enemy_soldier2_302
+    21300606: enemy_soldier2_303
+    21300608: enemy_soldier2_304
+    21300610: enemy_soldier2_305
+    21300612: enemy_soldier2_306
+    21300614: enemy_soldier2_307
+    21300616: enemy_soldier2_308
+    21300618: enemy_soldier2_309
+    21300620: enemy_soldier2_310
+    21300622: enemy_soldier2_311
+    21300624: enemy_soldier2_312
+    21300626: enemy_soldier2_313
+    21300628: enemy_soldier2_314
+    21300630: enemy_soldier2_315
+    21300632: enemy_soldier2_316
+    21300634: enemy_soldier2_317
+    21300636: enemy_soldier2_318
+    21300638: enemy_soldier2_319
+    21300640: enemy_soldier2_320
+    21300642: enemy_soldier2_321
+    21300644: enemy_soldier2_322
+    21300646: enemy_soldier2_323
+    21300648: enemy_soldier2_324
+    21300650: enemy_soldier2_325
+    21300652: enemy_soldier2_326
+    21300654: enemy_soldier2_327
+    21300656: enemy_soldier2_328
+    21300658: enemy_soldier2_329
+    21300660: enemy_soldier2_330
+    21300662: enemy_soldier2_331
+    21300664: enemy_soldier2_332
+    21300666: enemy_soldier2_333
+    21300668: enemy_soldier2_334
+    21300670: enemy_soldier2_335
+    21300672: enemy_soldier2_336
+    21300674: enemy_soldier2_337
+    21300676: enemy_soldier2_338
+    21300678: enemy_soldier2_339
+    21300680: enemy_soldier2_340
+    21300682: enemy_soldier2_341
+    21300684: enemy_soldier2_342
+    21300686: enemy_soldier2_343
+    21300688: enemy_soldier2_344
+    21300690: enemy_soldier2_345
+    21300692: enemy_soldier2_346
+    21300694: enemy_soldier2_347
+    21300696: enemy_soldier2_348
+    21300698: enemy_soldier2_349
+    21300700: enemy_soldier2_350
+    21300702: enemy_soldier2_351
+    21300704: enemy_soldier2_352
+    21300706: enemy_soldier2_353
+    21300708: enemy_soldier2_354
+    21300710: enemy_soldier2_355
+    21300712: enemy_soldier2_356
+    21300714: enemy_soldier2_357
+    21300716: enemy_soldier2_358
+    21300718: enemy_soldier2_359
+    21300720: enemy_soldier2_360
+    21300722: enemy_soldier2_361
+    21300724: enemy_soldier2_362
+    21300726: enemy_soldier2_363
+    21300728: enemy_soldier2_364
+    21300730: enemy_soldier2_365
+    21300732: enemy_soldier2_366
+    21300734: enemy_soldier2_367
+    21300736: enemy_soldier2_368
+    21300738: enemy_soldier2_369
+    21300740: enemy_soldier2_370
+    21300742: enemy_soldier2_371
+    21300744: enemy_soldier2_372
+    21300746: enemy_soldier2_373
+    21300748: enemy_soldier2_374
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: enemy_soldier2_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 829
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 832
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 824
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 835
+        width: 58
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 832
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 823
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 815
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 25}
+        - {x: -25, y: 24}
+        - {x: -25, y: -19}
+        - {x: 7, y: -25}
+        - {x: 19, y: -25}
+        - {x: 25, y: -19}
+        - {x: 25, y: 25}
+    - name: enemy_soldier2_7
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 818
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 18.5}
+        - {x: -19, y: 16.5}
+        - {x: -19, y: -0.5}
+        - {x: -17, y: -8.5}
+        - {x: -2, y: -18.5}
+        - {x: 8, y: -18.5}
+        - {x: 19, y: -7.5}
+        - {x: 19, y: 14.5}
+        - {x: 17, y: 18.5}
+    - name: enemy_soldier2_8
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 823
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_9
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 826
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_10
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 825
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_11
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 826
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 19}
+        - {x: -25.5, y: 3}
+        - {x: -25.5, y: -19}
+        - {x: 25.5, y: -19}
+        - {x: 25.5, y: 5}
+        - {x: 17.5, y: 19}
+    - name: enemy_soldier2_12
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 828
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_13
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 826
+        width: 52
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_14
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 826
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_15
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 837
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 769
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 767
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 763
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_19
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 767
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_20
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 764
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_21
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 764
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 21.5}
+        - {x: -26.5, y: 7.5}
+        - {x: -26.5, y: -21.5}
+        - {x: 19.5, y: -21.5}
+        - {x: 26.5, y: -17.5}
+        - {x: 26.5, y: 3.5}
+        - {x: 21.5, y: 21.5}
+    - name: enemy_soldier2_22
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 764
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_23
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 765
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 16.5}
+        - {x: -25, y: 9.5}
+        - {x: -25, y: -16.5}
+        - {x: 19, y: -16.5}
+        - {x: 25, y: -13.5}
+        - {x: 25, y: 16.5}
+    - name: enemy_soldier2_24
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 764
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_25
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 762
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_26
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 764
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_27
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 764
+        width: 53
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 17}
+        - {x: -26.5, y: 12}
+        - {x: -26.5, y: -17}
+        - {x: 20.5, y: -17}
+        - {x: 26.5, y: -14}
+        - {x: 26.5, y: 9}
+        - {x: 24.5, y: 17}
+    - name: enemy_soldier2_28
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 763
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_29
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 763
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_30
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 764
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_31
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 763
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_32
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 776
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_33
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 708
+        width: 58
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_34
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 702
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_35
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 700
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_36
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 700
+        width: 60
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_37
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 698
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: -16}
+        - {x: 23.5, y: 8}
+        - {x: 18.5, y: 16}
+        - {x: -23.5, y: 16}
+        - {x: -23.5, y: -16}
+    - name: enemy_soldier2_38
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 712
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_39
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 715
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_40
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 715
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_41
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 715
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_42
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 712
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_43
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 713
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_44
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 713
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_45
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 713
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_46
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 713
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_47
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 713
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_48
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 670
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_49
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 673
+        width: 59
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_50
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 675
+        width: 62
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_51
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 675
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_52
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 675
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_53
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 675
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_54
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 673
+        width: 58
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_55
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 670
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_56
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 670
+        width: 57
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_57
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 670
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_58
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 647
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_59
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 637
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_60
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 630
+        width: 57
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_61
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 640
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 5}
+        - {x: 21.5, y: 15}
+        - {x: 8.5, y: 17}
+        - {x: -15.5, y: 17}
+        - {x: -21.5, y: 11}
+        - {x: -21.5, y: -17}
+        - {x: 21.5, y: -17}
+        - {x: 21.5, y: -1}
+        - {x: 18.5, y: 1}
+    - name: enemy_soldier2_62
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 639
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_63
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 631
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_64
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 631
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_65
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 631
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_66
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 631
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_67
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 631
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_68
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 636
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_69
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 636
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_70
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 636
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_71
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 636
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_72
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 636
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_73
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 634
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_74
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 585
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_75
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 584
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_76
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 589
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_77
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 592
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_78
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 595
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_79
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 595
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_80
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 595
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_81
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 595
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_82
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 595
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_83
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 595
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_84
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 595
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_85
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 595
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_86
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 595
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_87
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 593
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_88
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 572
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_89
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 570
+        width: 46
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_90
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 548
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_91
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 553
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_92
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 554
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_93
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 556
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_94
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 556
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_95
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 553
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_96
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 553
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_97
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 553
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_98
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 553
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_99
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 553
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_100
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 553
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_101
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 553
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_102
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 525
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_103
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 507
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_104
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 502
+        width: 49
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_105
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 521
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_106
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 507
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_107
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 514
+        width: 56
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_108
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 513
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_109
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 513
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_110
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 509
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_111
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 515
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_112
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 516
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_113
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 516
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_114
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 517
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_115
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 517
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_116
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 517
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_117
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 516
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_118
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 516
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_119
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 517
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_120
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 465
+        width: 59
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_121
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 454
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_122
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 466
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_123
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 475
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_124
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 467
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_125
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 467
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_126
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 474
+        width: 49
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_127
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 468
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_128
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 468
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_129
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 468
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_130
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 469
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_131
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 469
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_132
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 469
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_133
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 470
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_134
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 471
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_135
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 471
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_136
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 471
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_137
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 471
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_138
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 442
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_139
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 443
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_140
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 425
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_141
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 434
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_142
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 430
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_143
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 421
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_144
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 438
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_145
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 425
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_146
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 424
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_147
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 424
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_148
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 424
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_149
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 431
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_150
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 431
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_151
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 431
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_152
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 431
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_153
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 431
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_154
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 431
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_155
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 403
+        width: 60
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_156
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 365
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 25}
+        - {x: 5, y: 25}
+        - {x: -21, y: 13}
+        - {x: -21, y: -15}
+        - {x: 4, y: -25}
+        - {x: 16, y: -25}
+        - {x: 21, y: -16}
+        - {x: 21, y: 17}
+        - {x: 19, y: 22}
+    - name: enemy_soldier2_157
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 389
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_158
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 385
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_159
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 393
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_160
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 394
+        width: 62
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_161
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 401
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_162
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 392
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_163
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 389
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_164
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 387
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_165
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 387
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_166
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 387
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_167
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 387
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_168
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 387
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_169
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 387
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_170
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 387
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_171
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 387
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_172
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 377
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_173
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 352
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_174
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 375
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_175
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 379
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_176
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 344
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_177
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 343
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_178
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 343
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_179
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 346
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_180
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 356
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_181
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 354
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_182
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 354
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_183
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 354
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_184
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 354
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_185
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 354
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_186
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 354
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_187
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 354
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_188
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 354
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_189
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 311
+        width: 54
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_190
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 322
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_191
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 311
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_192
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 304
+        width: 55
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_193
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 329
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_194
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 333
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_195
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 323
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_196
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 321
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_197
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 320
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_198
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 320
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_199
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 318
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_200
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 320
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_201
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 322
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_202
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 322
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_203
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 321
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_204
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 320
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_205
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 312
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_206
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 302
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_207
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 298
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_208
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 279
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_209
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 270
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_210
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 266
+        width: 58
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_211
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 283
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_212
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 287
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_213
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 290
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_214
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 288
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_215
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 287
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_216
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 289
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_217
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 287
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_218
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 287
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_219
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 288
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_220
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 289
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_221
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 289
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_222
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 290
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_223
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 247
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_224
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 249
+        width: 59
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_225
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 250
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 5}
+        - {x: 21.5, y: 15}
+        - {x: 8.5, y: 17}
+        - {x: -15.5, y: 17}
+        - {x: -21.5, y: 11}
+        - {x: -21.5, y: -17}
+        - {x: 21.5, y: -17}
+        - {x: 21.5, y: -1}
+        - {x: 18.5, y: 1}
+    - name: enemy_soldier2_226
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 261
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_227
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 252
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_228
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 255
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_229
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 253
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_230
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 254
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_231
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 258
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_232
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 254
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_233
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 254
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_234
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 254
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_235
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 254
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_236
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 254
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_237
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 254
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_238
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 254
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_239
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 222
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_240
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 229
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_241
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 227
+        width: 54
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_242
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 237
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_243
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 241
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_244
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 221
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_245
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 227
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_246
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 221
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_247
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 221
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_248
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 221
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_249
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 221
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_250
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 221
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_251
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 222
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_252
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 217
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_253
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 226
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_254
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 214
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_255
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 205
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_257
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 179
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_258
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 180
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 21}
+        - {x: -22, y: 10}
+        - {x: -25, y: 6}
+        - {x: -25, y: -21}
+        - {x: 19, y: -21}
+        - {x: 25, y: -18}
+        - {x: 25, y: 21}
+    - name: enemy_soldier2_259
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 183
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_260
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 188
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_261
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 188
+        width: 54
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_262
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 191
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_263
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 196
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_264
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 189
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_265
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 182
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_266
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 188
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_267
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 195
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_268
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 188
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_269
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 193
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_272
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 192
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_274
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 182
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_276
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 193
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_277
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 192
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_279
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 193
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_280
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 144
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_281
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 147
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_282
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 156
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_283
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 159
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_284
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 161
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_285
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 156
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_286
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 149
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_287
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 157
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_288
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 163
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_289
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 155
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_290
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 159
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_291
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 159
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_292
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 156
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_293
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 155
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_294
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 155
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_295
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 155
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_296
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 149
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_297
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 142
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_300
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 119
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_301
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 118
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 16.5}
+        - {x: -8, y: 16.5}
+        - {x: -25, y: 11.5}
+        - {x: -25, y: -16.5}
+        - {x: 15, y: -16.5}
+        - {x: 25, y: -9.5}
+        - {x: 25, y: 3.5}
+        - {x: 16, y: 11.5}
+    - name: enemy_soldier2_302
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 106
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_303
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 119
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_304
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 113
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_305
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 125
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_306
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 123
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_307
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 116
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_308
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 124
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_309
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 132
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_310
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 122
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_313
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 123
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_314
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 121
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_315
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 120
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_316
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 122
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_317
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 110
+        width: 52
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_318
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 105
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_319
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 126
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_320
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 126
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_321
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 84
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_322
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 80
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 0}
+        - {x: 22.5, y: 13}
+        - {x: 14.5, y: 16}
+        - {x: -18.5, y: 16}
+        - {x: -22.5, y: 14}
+        - {x: -22.5, y: -8}
+        - {x: -11.5, y: -16}
+        - {x: 4.5, y: -16}
+        - {x: 22.5, y: -12}
+        - {x: 22.5, y: -3}
+        - {x: 20.5, y: 0}
+    - name: enemy_soldier2_323
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 97
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_324
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 89
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_325
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 90
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_326
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 83
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_327
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 91
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_328
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 100
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_329
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 89
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_330
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 93
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_332
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 89
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_333
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 89
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_334
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 65
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_335
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 65
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_337
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 94
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_338
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 49
+        width: 64
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_339
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 54
+        width: 52
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_340
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 55
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -16.5}
+        - {x: 18, y: -16.5}
+        - {x: 25, y: -11.5}
+        - {x: 25, y: 4.5}
+        - {x: 19, y: 16.5}
+        - {x: -25, y: 16.5}
+        - {x: -25, y: -13.5}
+    - name: enemy_soldier2_341
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 48
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_342
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 51
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_343
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 67
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_344
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 52
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_345
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 57
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_346
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 50
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_347
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 58
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_348
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 68
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_349
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 56
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_350
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 60
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_351
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 56
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_352
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 56
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_353
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 57
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_355
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 28
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_356
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 26
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_357
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 24
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_358
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 21
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_359
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 17
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_360
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 24
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_361
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 17
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_362
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 25
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_363
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 35
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_364
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 23
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_365
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 28
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_366
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 23
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_367
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 21
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_368
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 23
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_369
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 4
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_370
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 13
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_371
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 10
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_373
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemy_soldier2_374
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

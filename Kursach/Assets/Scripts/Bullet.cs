@@ -18,6 +18,7 @@ public class Bullet : MonoBehaviour {
         transform.Translate(direction * 17 * Time.deltaTime);
 
         timer -= Time.deltaTime;
+
         if(timer <= 0)
         {
             Destroy(this.gameObject);
@@ -32,14 +33,29 @@ public class Bullet : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if(col.gameObject.tag == "Enemy")
+        Debug.Log(creator + "-" + col.gameObject.tag);
+        if (col.gameObject.tag == "Enemy")
         {
             attacked = col.gameObject.GetComponent<EnemyAttacked>();
             attacked.killBullet();
+
             Instantiate(bloodImpact, this.transform.position, this.transform.rotation);
             Destroy(this.gameObject);
         }
-        else
+        //		else if(col.gameObject.tag != "Bullet")
+        //        {
+        //            Instantiate(wallImpact, this.transform.position, this.transform.rotation);
+        //            Destroy(this.gameObject);
+        //        }
+        else if (col.gameObject.tag == "Enemy" && creator == "Enemy")
+        {
+        }
+        else if (col.gameObject.tag == "Player")
+        {
+            Instantiate(bloodImpact, this.transform.position, this.transform.rotation);
+            Destroy(this.gameObject);
+        }
+        else if (col.gameObject.tag != "Enemy" && col.gameObject.tag != "Player")
         {
             Instantiate(wallImpact, this.transform.position, this.transform.rotation);
             Destroy(this.gameObject);
