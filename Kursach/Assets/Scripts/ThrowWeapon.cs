@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ThrowWeapon : MonoBehaviour {
     EnemyAttacked attacked;
-    float timer = 2.0f;
+    float timer = 1.5f;
     Vector3 direction;
     Rigidbody2D rid;
     GameObject player;

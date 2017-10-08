@@ -2,93 +2,34 @@
 using System.Collections;
 
 public class EnemyAnimate : MonoBehaviour {
-    public SpriteRenderer torso, legs;
+    Sprite[] torsoSpr, attackingSpr, legsSpr;
+    int tCounter = 0, aCounter = 0, lCounter = 0;
     EnemyAI eai;
-    SpriteContainer sc;
-    public Sprite[] torsoSpr, attackingSpr, legsSpr;
-
     float torsoTimer = 0.15f, legsTimer = 0.15f, legReset = 0.15f, torsoReset = 0.15f;
-    int tCounter = 0, lCounter = 0;
-    string weapon;
-    EnemyWeaponController ewc;
+    public SpriteRenderer torso, legs; 
+    SpriteContainer sc;
     public bool attacking = false;
 
-	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         eai = this.GetComponent<EnemyAI>();
         sc = GameObject.FindGameObjectWithTag("GameController").GetComponent<SpriteContainer>();
         torsoSpr = sc.getEnemyWalk("");
         attackingSpr = sc.getEnemyWeapon("");
-        ewc = this.GetComponent<EnemyWeaponController>();
-        legsSpr = sc.getPlayerLegs();
-	}
+		legsSpr = sc.eWalk;
+    }
 	
-	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 	    if(eai.moving == true)
         {
             animateLegs();
         }
-        if (attacking == true)
-        {
-            animateAttack();
-        }
-        else
-        {
-            animateWalk();
-        }
+
+        animateTorso();
 
         legResetSpeed();
-        valueChecks();
 	}
-
-    void animateWalk()
-    {
-        if(tCounter >torsoSpr.Length - 1)
-        {
-            tCounter = 0;
-        }
-       // Debug.Log("Walk animate " + tCounter);
-        torsoTimer -= Time.deltaTime;
-        if(torsoSpr.Length > 1)
-        {
-            torso.sprite = torsoSpr[0];
-        }
-        if(torsoTimer <=0)
-        {
-            if(tCounter < torsoSpr.Length -1)
-            {
-                tCounter++;
-            } else
-            {
-                tCounter = 0;
-            }
-            torsoTimer = torsoReset;
-        }
-    }
-
-    void animateAttack()
-    {
-        if(tCounter > attackingSpr.Length - 1)
-        {
-            tCounter = 0;
-        }
-
-        torsoTimer -= Time.deltaTime;
-        if(torsoTimer<=0)
-        {
-            if(tCounter < attackingSpr.Length - 1)
-            {
-                tCounter++;
-            }
-            else
-            {
-                attacking = false;
-                tCounter = 0;
-            }
-            torsoTimer = torsoReset;
-        }
-    }
 
     void animateTorso()
     {
@@ -96,7 +37,7 @@ public class EnemyAnimate : MonoBehaviour {
 
         if (attacking == false)
         {
-            if (torsoSpr.Length > 1)
+            if (torsoSpr.Length > tCounter)
             {
                 torso.sprite = torsoSpr[tCounter];
             }
@@ -119,18 +60,17 @@ public class EnemyAnimate : MonoBehaviour {
         }
         else
         {
-            torso.sprite = attackingSpr[tCounter];
+            torso.sprite = attackingSpr[aCounter];
             if (torsoTimer <= 0)
             {
-                if (tCounter < attackingSpr.Length - 1)
-
+                if (aCounter < attackingSpr.Length - 1)
                 {
-                    tCounter++;
+                    aCounter++;
                 }
                 else
                 {
                     attacking = false;
-                    tCounter = 0;
+                    aCounter = 0;
                 }
             }
             torsoTimer = torsoReset;
@@ -154,6 +94,7 @@ public class EnemyAnimate : MonoBehaviour {
             legsTimer = legReset;
         }
     }
+
     void legResetSpeed()
     {
         if(eai.getSpeed() > 2.1f)
@@ -172,41 +113,11 @@ public class EnemyAnimate : MonoBehaviour {
         attacking = true;
     }
 
-    void valueChecks()
-    {
-        if (this.gameObject.tag == "Dead")
-        {
-            legs.enabled = false;
-        }
-        if (eai.enabled == false)
-        {
-            legs.enabled = false;
-        } else
-        {
-            legs.enabled = true;
-        }
-    }
-
     public void setTorsoSpr(string name)
     {
         torsoSpr = sc.getEnemyWalk(name);
         attackingSpr = sc.getEnemyWeapon(name);
         tCounter = 0;
-    }
-
-    public void resetCounter()
-    {
-        tCounter = 0;
-    }
-
-    public void disableLegs()
-    {
-        legs.sprite = null;
-        legs.enabled = false;
-    }
-
-    public void enableLegs()
-    {
-        legs.enabled = true;
+        aCounter = 0;
     }
 }

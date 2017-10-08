@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 
 public class EnemyAI : MonoBehaviour {
@@ -7,19 +8,17 @@ public class EnemyAI : MonoBehaviour {
 	public bool patrol = true, guard = false, clockwise = false;
 	public bool moving = true;
 	public bool pursuingPlayer = false, goingToLastLoc = false;
-	Vector3 target;
 	Rigidbody2D rid;
 	public Vector3 playerLastPos;
 	RaycastHit2D hit;
 	float speed = 2.0f;
 	int layerMask = 1<<8;
 
-
 	ObjectManager obj;
 	GameObject[] weapons;
 	EnemyWeaponController ewc;
 	public GameObject weaponToGoTo;
-	public bool goingToWeapon = false;
+    public bool goingToWeapon = false;
 	public bool hasGun = false;
 
 	void Start() {
@@ -31,139 +30,152 @@ public class EnemyAI : MonoBehaviour {
 		layerMask = ~layerMask;
 	}
 
-	void Update() {
-		movement ();
-		playerDetect ();
-        canEnemyFindWeapon();
+	void Update()
+    {
+        if (PlayerHealth.dead == false)
+        {
+            playerDetect();
+            canEnemyFindWeapon();
+            movement();
+        }
+        else
+        {
+            this.GetComponent<EnemyAnimate>().enabled = false;
+            this.GetComponent<EnemyWeaponController>().enabled = false;
+        }
 	}
 
-	void movement() {
-		float dist = Vector3.Distance (player.transform.position, this.transform.position);
-		Vector3 dir = player.transform.position - transform.position;
-		hit = Physics2D.Raycast(new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (dir.x, dir.y), dist, layerMask);
-		Debug.DrawRay (transform.position, dir, Color.red);
+	void movement()
+    {
+		Vector2 distance = player.transform.position - transform.position;
+        hit = Physics2D.Raycast(new Vector2 (this.transform.position.x, this.transform.position.y), distance, Vector2.Distance(player.transform.position, this.transform.position), layerMask);
+		Debug.DrawRay (transform.position, distance, Color.red);
 
-		Vector3 fwt = this.transform.TransformDirection (Vector3.right);
+		Vector2 fwt = this.transform.TransformDirection (Vector2.right);
+        RaycastHit2D hit2 = Physics2D.Raycast (new Vector2 (this.transform.position.x, this.transform.position.y), fwt, 1.0f, layerMask);
+		Debug.DrawRay (new Vector2 (this.transform.position.x, this.transform.position.y), fwt, Color.cyan);
 
-		RaycastHit2D hit2 = Physics2D.Raycast (new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (fwt.x, fwt.y), 1.0f, layerMask);
-
-		Debug.DrawRay (new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (fwt.x, fwt.y), Color.cyan);
-
-		if (moving == true) {
-			if (hasGun == false) {
-				transform.Translate (Vector3.right * speed * Time.deltaTime);
-			} else {
-				if (Vector3.Distance (this.transform.position, player.transform.position) < 5 && pursuingPlayer == true) {
-					//new enemy weapon
-				} else {
-					transform.Translate (Vector3.right * speed * Time.deltaTime);
-				}
-			}
+		if (moving == true)
+        {
+			transform.Translate (Vector3.right * speed * Time.deltaTime);
 		}
 
-		if (patrol == true) {
-			Debug.Log ("Patrolling normally");
+		if (patrol == true)
+        {
 			speed = 2.0f;
 
-			if (hit2.collider != null) {
-
-				if (hit2.collider.gameObject.tag == "Wall") {
-
-					if (clockwise == false) {
-						
+			if (hit2.collider != null)
+            {
+                if (hit2.collider.gameObject.tag != "Bullet")
+                {
+                    if (clockwise == false)
+                    {
 						transform.Rotate (0, 0, 90);
-					} else {
+					}
+                    else
+                    {
 						transform.Rotate (0, 0, -90);
 					}
 				}
-			}
-            if(weaponToGoTo != null)
-            {
-                patrol = false;
-                goingToWeapon = true;
-            }
-                
+			}  
 		}
 
-		if (pursuingPlayer == true) {
-			Debug.Log ("Pusuing player");
+		if (pursuingPlayer == true)
+        {
 			speed = 3.5f;
 			rid.transform.eulerAngles = new Vector3 (0, 0, Mathf.Atan2((playerLastPos.y - transform.position.y), (playerLastPos.x - transform.position.x)) * Mathf.Rad2Deg);
 
-			if (hit.collider.gameObject.tag == "Player") {
+			if (hit.collider.gameObject.tag == "Player")
+            {
 				playerLastPos = player.transform.position;
 			}
 		}
 
-		if (goingToLastLoc == true) {
-			Debug.Log ("Checking last known player location");
+		if (goingToLastLoc == true)
+        {
 			speed = 3.0f;
 			rid.transform.eulerAngles = new Vector3 (0, 0, Mathf.Atan2 ((playerLastPos.y - transform.position.y), (playerLastPos.x - transform.position.x)) * Mathf.Rad2Deg);
 
-			if (Vector3.Distance (this.transform.position, playerLastPos) < 1.5f) {
+			if (Vector3.Distance (this.transform.position, playerLastPos) < 1.5f)
+            {
 				patrol = true;
 				goingToLastLoc = false;
-					}
-				}
+			}
+		}
 
-		if(goingToWeapon == true){
-			speed = 3.0f;
+		if(goingToWeapon == true)
+        {
+            speed = 3.0f;
 			rid.transform.eulerAngles = new Vector3 (0, 0, Mathf.Atan2 ((weaponToGoTo.transform.position.y - transform.position.y), (weaponToGoTo.transform.position.x - transform.position.x)) * Mathf.Rad2Deg);
-			if (ewc.getCur () != null) {
+			if (ewc.getCur () != null || weaponToGoTo.activeSelf == false)
+            {
 				weaponToGoTo = null;
 				patrol = true;
 				goingToWeapon = false;
 				pursuingPlayer = false;
 				goingToLastLoc = false;
-				}
-				if (weaponToGoTo.active == false || weaponToGoTo == null) {
-					weaponToGoTo = null;
-					patrol = true;
-					goingToWeapon = false;
-					pursuingPlayer = false;
-					goingToLastLoc = false;
 			}
 		}					
 	}
 
 
 	void setWeaponToGoTo(GameObject weapon)
-	{
-		weaponToGoTo = weapon;
-		goingToWeapon = true;
-		patrol = false;
-		pursuingPlayer = false;
-		goingToLastLoc = false;
+	{	
+        if (pursuingPlayer == false)
+        {
+            weaponToGoTo = weapon;
+            goingToWeapon = true;
+            patrol = false;
+            goingToLastLoc = false;
+        }
 	}
 
 	void canEnemyFindWeapon()
 	{
-		if (ewc.getCur () == null && weaponToGoTo == null && goingToWeapon == false) {
+		if (ewc.getCur() == null && weaponToGoTo == null && goingToWeapon == false)
+        {
 			weapons = obj.getWeapons ();
-			for (int x = 0; x < weapons.Length; x++) {
-				float distance = Vector3.Distance (this.transform.position, weapons [x].transform.position);
-				if (distance < 10) {
-					Vector3 dir = weapons [x].transform.position - transform.position;
-					RaycastHit2D wepCheck = Physics2D.Raycast (new Vector2 (this.transform.position.x, this.transform.position.y), new Vector2 (dir.x, dir.y), distance, layerMask);
-					if (wepCheck.collider.gameObject.tag == "Weapon") {
-						setWeaponToGoTo (weapons [x]);
-					}
+			for (int i = 0; i < weapons.Length; i++)
+            {
+				if (AIcanSeeObject(weapons[i]))
+                {
+					setWeaponToGoTo(weapons[i]);
+                    break;
 				}
 			}
 		}
 	}
 
+    public bool AIcanSeeObject(GameObject objectToSee)
+    {
+        bool visible = false;
+
+        Vector2 distanceVector2 = objectToSee.transform.position - transform.position;
+        RaycastHit2D rhCheck = Physics2D.Raycast(new Vector2(this.transform.position.x, this.transform.position.y), distanceVector2, Vector2.Distance(objectToSee.transform.position, this.transform.position), layerMask);
+
+        float distance = Vector3.Distance(this.transform.position, objectToSee.transform.position);
+        if (distance < 9.0f && 5 * this.transform.InverseTransformPoint(objectToSee.transform.position).x > 0.18 * distance && rhCheck.collider.gameObject == objectToSee)
+        {
+            visible = true;
+        }
+        return visible;
+    }
 
 	public void playerDetect()
 	{
-		Vector3 pos = this.transform.InverseTransformPoint (player.transform.position);
-
-		if (hit.collider != null) {
-			if (hit.collider.gameObject.tag == "Player" && pos.x > 1.2f && Vector3.Distance (this.transform.position, player.transform.position) < 9) {
+		if (hit.collider != null)
+        {
+            if (AIcanSeeObject(player))
+            {
 				patrol = false;
-				pursuingPlayer = true;
-			} else {
-				if (pursuingPlayer == true) {
+                weaponToGoTo = null;
+                goingToWeapon = false;
+                pursuingPlayer = true;
+			}
+            else
+            {
+				if (pursuingPlayer == true)
+                {
 					goingToLastLoc = true;
 					pursuingPlayer = false;
 				}

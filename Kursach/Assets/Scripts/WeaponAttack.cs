@@ -5,7 +5,7 @@ public class WeaponAttack : MonoBehaviour {
     public GameObject oneHandSpawn, twoHandSpawn, bullet;
     GameObject curWeapon;
 	bool gun = false;
-	float timer = 0.1f,timerReset = 0.1f;
+	float timer = 0.1f, timerReset = 0.1f;
 	PlayerAnimate pa;
 	SpriteContainer sc;
 
@@ -28,7 +28,8 @@ public class WeaponAttack : MonoBehaviour {
 
 		if(Input.GetMouseButton(0) && timer <= 0)
         {
-			attack ();
+			attack();
+            timer = timerReset;
 		}
 
 		if (Input.GetMouseButtonDown (0))
@@ -49,6 +50,7 @@ public class WeaponAttack : MonoBehaviour {
 
 		if (changingWeapon == true)
         {
+            Debug.Log("changingWeapon");
 			weaponChange -= Time.deltaTime;
 			if (weaponChange <= 0)
             {
@@ -73,7 +75,7 @@ public class WeaponAttack : MonoBehaviour {
         pa.attack();
         if(gun == true)
         {
-            pa.attack();
+            //pa.attack();
             Bullet bl = bullet.GetComponent<Bullet>();
             Vector3 dir;
             dir.x = Vector2.right.x;
@@ -91,23 +93,27 @@ public class WeaponAttack : MonoBehaviour {
         }
         else
         {
-			int layerMask = 1 << 9;
-			layerMask -= layerMask;
-            pa.attack();
-            RaycastHit2D ray = Physics2D.Raycast(new Vector2(this.transform.position.x, this.transform.position.y), new Vector2(this.transform.right.x, this.transform.right.y));
+			int layerMask = 1<<9;
+			layerMask = ~layerMask;
+            //pa.attack();
+            RaycastHit2D ray = Physics2D.Raycast(new Vector2(this.transform.position.x, this.transform.position.y), new Vector2(this.transform.right.x, this.transform.right.y), 1.5f, layerMask);
             Debug.DrawRay(new Vector2(this.transform.position.x, this.transform.position.y), new Vector2(this.transform.right.x, this.transform.right.y), Color.green);
 
-            if(curWeapon == null && ray.collider.gameObject.tag == "Enemy")
+            if (ray.collider != null)
             {
-                EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked>();
-                ea.knockDownEnemy();
-            }
-            else if(ray.collider != null)
-            {
-                if(ray.collider.gameObject.tag == "Enemy")
+                if (ray.collider.gameObject.tag == "Enemy")
                 {
-                    EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked>();
-                    ea.killMelee();
+                    if(curWeapon == null)
+                    {
+                        EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked>();
+                        ea.knockDownEnemy();
+                    }
+                    else
+                    {
+                        EnemyAttacked ea = ray.collider.gameObject.GetComponent<EnemyAttacked>();
+                        ea.killMelee();
+                    }
+
                 }
             }
 			timer = timerReset;
